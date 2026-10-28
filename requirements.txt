@@ -1,0 +1,11 @@
+# Minimum versions the code was written for. The exact versions of every run are
+# saved automatically to <results>/pip_freeze.txt and <results>/environment.json.
+torch>=2.3
+transformers>=4.56
+peft>=0.17
+datasets>=3.0
+accelerate>=1.0
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.8

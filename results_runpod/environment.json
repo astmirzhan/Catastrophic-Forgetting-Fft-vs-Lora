@@ -1,0 +1,9 @@
+{
+  "python": "3.12.3",
+  "torch": "2.8.0+cu128",
+  "transformers": "5.21.0",
+  "peft": "0.21.2",
+  "datasets": "5.1.0",
+  "gpu": "NVIDIA RTX A6000",
+  "gpu_memory_gb": 50.9
+}

@@ -1,0 +1,9 @@
+{
+  "python": "3.13.16",
+  "torch": "2.11.0+cu130",
+  "transformers": "5.21.0",
+  "peft": "0.21.2",
+  "datasets": "5.1.0",
+  "gpu": "Tesla T4",
+  "gpu_memory_gb": 15.6
+}

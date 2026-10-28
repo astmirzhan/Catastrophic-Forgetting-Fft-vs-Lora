@@ -1,0 +1,186 @@
+item_id,source,gold,pred_step0,pred_step3,p_gold_step0,p_gold_step3,letter_mass_step0,letter_mass_step3,auto_category,manual_category,note,question
+mmlu::professional_law::291,MMLU,C,C,D,0.52269,0.38702,0.999811,0.997135,factual_erasure,,,"Question: The prime minister of a foreign country was assassinated by a group of right wing extremists. The prime minister's death triggered a civil war between rival factions within the country. To prevent U. S. involvement in this country's political crisis, Congress passed an appropriations bill prohibiting any funding for U. S. military operations in this foreign country. The appropriations bill was passed over a presidential veto. Thereafter, the President issued an executive order directing U. S. Navy and Army troops to the foreign country to restore order. Is this executive order constitutional?
+A. Yes, because the President, as commander- in-chief of the armed forces, has the power to authorize such military expeditions.
+B. Yes, because the President has inherent power to regulate foreign affairs as long as there is no formal declaration of war.
+C. No, because the President cannot usurp Congress's spending power by taking action that supersedes a congressional appropriations bill.
+D. No, because the executive order was neither authorized by federal statute nor ratified by the Senate.
+Answer:"
+arc::Mercury_7012740,ARC-Challenge,A,A,C,0.58347,0.23726,0.999516,0.998105,factual_erasure,,,"Question: Which statement best describes the effect of the Sun on the oceans?
+A. The Sun influences the formation of waves.
+B. The Sun creates water particles.
+C. The Sun's rays cause organisms to come to the surface.
+D. The Sun provides minerals.
+Answer:"
+arc::Mercury_7172270,ARC-Challenge,A,A,C,0.42199,0.33007,0.999679,0.923449,factual_erasure,,,"Question: In a population of brown snakes, a snake is born with a white-spotted pattern. Which factor will have the most influence on whether this trait will become common in the brown snake population?
+A. the ability of the snake to survive to reproduce
+B. the appearance of other new traits in the baby snake
+C. the history of the pattern in previous snake populations
+D. the presence of thermal energy changing the snake pattern
+Answer:"
+mmlu::human_aging::447,MMLU,A,A,D,0.31312,0.29011,0.99863,0.988931,factual_erasure,,,"Question: In which dementia are cognitive symptoms less likely?
+A. Parkinson's
+B. Pick's
+C. Huntington's
+D. NeuroAIDS
+Answer:"
+arc::Mercury_SC_408030,ARC-Challenge,A,A,B,0.64805,0.39173,0.998663,0.883305,factual_erasure,,,"Question: There are four seasons in a year. Which reason is most responsible for the changing seasons on Earth?
+A. the way Earth tilts on its axis
+B. the way Earth rotates on its axis
+C. changes in the distance between Earth and the Sun
+D. changes in the amount of energy the Sun produces
+Answer:"
+mmlu::security_studies::230,MMLU,B,B,C,0.72907,0.29625,0.993731,0.762051,factual_erasure,,,"Question: Which of the following is not one of the unifying principles of Critical Security Studies, as defined by Krause?
+A. Principle actors are social constructs that are made through political practices.
+B. Natural-science methodology is the best way to study social science, interpretive methodologies lack the coherence required for in-depth analysis.
+C. Knowledge of the social world is not objective, as there is no divide between the social world and knowledge of that world.
+D. The purpose of theory is not explanation in terms of generalizable causal claims, but contextual understanding and practical knowledge.
+Answer:"
+mmlu::jurisprudence::147,MMLU,D,D,C,0.61385,0.24791,0.999121,0.99545,factual_erasure,,,"Question: What does Dworkin mean by the 'semantic sting'?
+A. The language of the law is generally unclear.
+B. Lawyers' arguments usually concern language.
+C. Judges are prey to linguistic misunderstanding.
+D. The rule of recognition cannot fully account for legal validity.
+Answer:"
+mmlu::elementary_mathematics::348,MMLU,D,D,B,0.43714,0.23894,0.999609,0.767144,factual_erasure,,,"Question: Rob uses 1 box of cat food every 5 days to feed his cats. Approximately how many boxes of cat food does he use per month?
+A. 2 boxes
+B. 4 boxes
+C. 5 boxes
+D. 6 boxes
+Answer:"
+arc::Mercury_7223143,ARC-Challenge,D,D,C,0.4104,0.05144,0.998454,0.923361,factual_erasure,,,"Question: A sample of an unknown substance takes the shape of its container. Which question needs to be answered to provide the additional information required to determine the state of the sample?
+A. Is it transparent?
+B. Is it a hazardous sample?
+C. What is the temperature of the substance?
+D. Will it expand to the volume of a larger container?
+Answer:"
+arc::Mercury_7203473,ARC-Challenge,D,D,C,0.5561,0.31273,0.999747,0.998779,factual_erasure,,,"Question: A DNA strand contains codons, which consist of a sequence of three nucleotides. Which best describes the importance of codons found in the sequence of DNA?
+A. They contain the code for messenger RNA.
+B. They signal the start of mitotic cell division.
+C. They ensure proper replication of the genetic code.
+D. They are used to assemble amino acids for protein synthesis.
+Answer:"
+arc::Mercury_SC_400062,ARC-Challenge,D,D,C,0.39646,0.28483,0.998887,0.977246,factual_erasure,,,"Question: A plateau is most likely formed by
+A. runoff from a river.
+B. weathering by waves.
+C. erosion of rock debris.
+D. a buildup of cooled lava.
+Answer:"
+arc::TIMSS_2011_4_pg45,ARC-Challenge,A,A,B,0.46417,0.22791,0.998903,0.933419,factual_erasure,,,"Question: Some plants produce fruit such as apples. What is one function of a fruit?
+A. to protect seeds
+B. to produce food for seeds
+C. to stop seeds from dispersing
+D. to store water for seed germination
+Answer:"
+mmlu::high_school_mathematics::441,MMLU,D,D,C,0.3818,0.24804,0.998844,0.968972,factual_erasure,,,"Question: What is the smallest prime whose digits sum to $19$?
+A. 5
+B. 11
+C. 17
+D. 199
+Answer:"
+arc::Mercury_SC_402616,ARC-Challenge,D,D,A,0.45819,0.28395,0.996559,0.966166,factual_erasure,,,"Question: Which is an example of condensation?
+A. water boiling in a pot
+B. water being absorbed by plants
+C. salt being removed from water
+D. moisture on mirror after hot shower
+Answer:"
+arc::MEA_2013_8_15,ARC-Challenge,A,A,B,0.40447,0.19178,0.999357,0.742854,factual_erasure,,,"Question: A ball is thrown downward onto a concrete floor and bounces upward. What supplies the upward force that makes the ball bounce?
+A. the floor
+B. the pull of gravity
+C. the air friction on the ball
+D. the person that throws the ball
+Answer:"
+arc::FCAT_2008_5_1,ARC-Challenge,A,A,C,0.35396,0.34789,0.999737,0.999172,near_tie,,,"Question: Ariana uses balloons to investigate static electricity. Which of the following best explains what will happen when she brings two positively charged balloons close to each other?
+A. The balloons will move apart.
+B. One balloon will lose its charge.
+C. The balloons will come together.
+D. One balloon will gain a negative charge.
+Answer:"
+mmlu::philosophy::178,MMLU,C,C,B,0.37421,0.23922,0.998518,0.785159,near_tie,,,"Question: Anselm assumes that a being that exists in reality is greater than a being that _____.
+A. is worshipped
+B. is embodied
+C. exists only in the understanding
+D. exists without flaws
+Answer:"
+mmlu::us_foreign_policy::25,MMLU,A,A,D,0.30906,0.26057,0.999672,0.99605,near_tie,,,"Question: Who was the first American president to visit communist China?
+A. Richard Nixon
+B. George H. W. Bush
+C. Jimmy Carter
+D. Ronald Reagan
+Answer:"
+mmlu::human_aging::187,MMLU,B,B,C,0.29411,0.29453,0.999375,0.991968,near_tie,,,"Question: Loss of stomach lining can lead to symptoms that resemble
+A. Anorexia
+B. Dementia
+C. Senescence
+D. Hepatitis
+Answer:"
+mmlu::formal_logic::293,MMLU,D,D,B,0.31496,0.22369,0.995694,0.987507,near_tie,,,"Question: Which of the given formulas of PL is the best symbolization of the following sentence?
+The restaurant serves pie or cheesecake or ice cream for dessert.
+A. P ∨ (C ∨ I)
+B. (P ∨ C) ∨ I
+C. P ∨ C ∨ I
+D. Options A and B
+Answer:"
+mmlu::high_school_european_history::110,MMLU,B,B,D,0.44571,0.35879,0.998639,0.992093,near_tie,,,"Question: This question refers to the following information.
+Read the following excerpt.
+Never were talents of the highest genius of the most exalted kind, more profusely bestowed upon a human being. The genius of Napoleon is astounding. All branches of human knowledge seemed alike familiar to his gigantic mind. His conversations at St. Helena, scattered through the numerous and voluminous memorials of those who gleaned them, are replete with intensest interest. During the long agony of his imprisonment and his death, he conversed with perfect freedom upon the events of his marvelous career, and upon all those subjects or morals, politics, and religion, which most deeply concern the welfare of our race. There is no mind which will not be invigorated by familiarity with these profound thoughts, expressed with so much glow of feeling and energy of diction.
+—John S. C. Abbott, historian, Napoleon at St. Helena, 1855
+Which of the following features of the French empire under Napoleon does Abbott seem most impressed with?
+A. Napoleon's secret police
+B. Napoleon's domestic reforms
+C. Napoleon's suppression of women's rights
+D. Napoleon's military tactics
+Answer:"
+arc::Mercury_407260,ARC-Challenge,B,B,C,0.60196,0.36438,0.999342,0.993107,near_tie,,,"Question: A chemical change happens when
+A. glass breaks into pieces.
+B. dough bakes in an oven.
+C. ice cream melts into a liquid.
+D. electricity flows through a wire.
+Answer:"
+mmlu::high_school_biology::189,MMLU,A,A,C,0.52627,0.36722,0.999088,0.975739,near_tie,,,"Question: The first simple cells evolved approximately 3.5 billion years ago, followed by the more complex eukaryotic cells 2.1 billion years ago. Which of the following statements is correct?
+A. Eukaryotic organelles helped create separate environments for metabolic reactions, thus increasing their metabolic efficiency.
+B. Prokaryotic and eukaryotic cells have no structural similarities.
+C. The organelles in larger eukaryotic cells took care of the problems of having a larger surface area–to–volume ratio.
+D. Eukaryotic cells are able to multiply faster based on their more complex structure.
+Answer:"
+arc::MEAP_2005_8_45,ARC-Challenge,D,D,C,0.4229,0.34214,0.999644,0.970543,near_tie,,,"Question: A student is investigating how light behaves when it strikes different surfaces. She has a frosted window glass pane, a clear window glass pane, a mirror, and a piece of cardboard. Which of these objects will scatter the most light?
+A. the mirror, because it is reflective
+B. the piece of cardboard, because it is opaque
+C. the clear window glass, because it is transparent
+D. the frosted window glass, because it is translucent
+Answer:"
+arc::Mercury_SC_408547,ARC-Challenge,C,C,B,0.66769,0.44869,0.999821,0.997126,near_tie,,,"Question: The end result in the process of photosynthesis is the production of sugar and oxygen. Which step signals the beginning of photosynthesis?
+A. Chemical energy is absorbed through the roots.
+B. Light energy is converted to chemical energy.
+C. Chlorophyll in the leaf captures light energy.
+D. Sunlight is converted into chlorophyll.
+Answer:"
+mmlu::high_school_mathematics::334,MMLU,D,D,C,0.3956,0.24781,0.997983,0.984675,near_tie,,,"Question: If $725x + 727y = 1500$ and $729x+ 731y = 1508$, what is the value of $x - y$ ?
+A. 725
+B. -2
+C. 2
+D. -48
+Answer:"
+mmlu::college_physics::139,MMLU,B,B,C,0.32906,0.28012,0.998868,0.947815,near_tie,,,"Question: Blue light of wavelength 480 nanometers is most strongly reflected off a thin film of oil on a glass slide when viewed near normal incidence. Assuming that the index of refraction of the oil is 1.2 and that of the glass is 1.6, what is the minimum thickness of the oil film (other than zero) ?
+A. 150 nm
+B. 200 nm
+C. 300 nm
+D. 400 nm
+Answer:"
+arc::NYSEDREGENTS_2008_8_5,ARC-Challenge,B,B,C,0.45835,0.30913,0.99977,0.990986,near_tie,,,"Question: Each body cell of a goldfish contains 94 chromosomes. How many chromosomes are contained in a goldfish sex cell?
+A. 23
+B. 47
+C. 94
+D. 188
+Answer:"
+mmlu::prehistory::231,MMLU,C,C,A,0.45895,0.26665,0.99819,0.979598,near_tie,,,"Question: Toward the end of the Pleistocene, between 28,000 and 18,000 years ago, worldwide sea level was much lower than present day, resulting in the exposure of a landmass east of Siberia called __________. This period is called the _______.
+A. Beringia; Late Beringian Period
+B. Sundaland; McKenzie Maximum
+C. Beringia; Late Glacial Maximum
+D. Wallacea; Late Laurentide Period
+Answer:"
+arc::Mercury_7219678,ARC-Challenge,A,A,B,0.58783,0.271,0.999311,0.984534,near_tie,,,"Question: Desalination removes salt from water. Removing salt from water can be risky because the process is expensive and slow. Sometimes the technology does not work. A beach community's surface and ground water was decreasing. The community decided to construct a large-scale plant to remove salt from the bay water. The plan to construct a salt-removing plant was accepted because the community
+A. needed increased resources.
+B. had access to advanced technology.
+C. had unlimited financial resources.
+D. needed to ease social pressures.
+Answer:"

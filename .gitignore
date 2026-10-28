@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+ckpt_*/
+/tmp/
+*.safetensors
+*.bin
+results_quick/
+results_*_quick/
+.DS_Store

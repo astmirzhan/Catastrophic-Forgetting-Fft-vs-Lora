@@ -1,0 +1,7 @@
+model,order,scope,n_pairs,mean_diff_pp,sd_diff_pp,cohen_dz,t_p,wilcoxon_p
+Qwen2.5-0.5B,main,all steps,9,4.244,5.934,0.715,0.06418492517945307,0.0078125
+Qwen2.5-0.5B,main,step 3 only,3,10.8,6.518,1.657,0.10300570886139446,
+Qwen2.5-0.5B,reversed,all steps,3,8.1,4.107,1.972,0.07605898501259548,
+Qwen2.5-0.5B,reversed,step 3 only,1,12.7,,,,
+Qwen2.5-1.5B,main,all steps,9,0.922,0.898,1.027,0.015119466057539251,0.01953125
+Qwen2.5-1.5B,main,step 3 only,3,1.833,0.651,2.818,0.03951191628896319,

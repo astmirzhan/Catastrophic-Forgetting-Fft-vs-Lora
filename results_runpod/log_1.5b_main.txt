@@ -1,0 +1,366 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[07:56:08] old-knowledge items: 1000 (ARC 500, MMLU 500)
+[07:56:08] eval_items sha256 = e6e4c60c9f2b95a488bda1388975af49be4204bfc9b0c139e0b35a4bb9224cf1
+[07:56:09] model=Qwen/Qwen2.5-1.5B order=main seeds=[42, 43, 44] methods=['FFT', 'LoRA'] out=results_runpod
+[07:56:09] environment: {'python': '3.12.3', 'torch': '2.8.0+cu128', 'transformers': '5.21.0', 'peft': '0.21.2', 'datasets': '5.1.0', 'gpu': 'NVIDIA RTX A6000', 'gpu_memory_gb': 50.9}
+Map:   0%|          | 0/2200 [00:00<?, ? examples/s]Map:  40%|████      | 883/2200 [00:00<00:00, 8625.49 examples/s]Map: 100%|██████████| 2200/2200 [00:00<00:00, 12310.58 examples/s]
+Filter:   0%|          | 0/2200 [00:00<?, ? examples/s]Filter: 100%|██████████| 2200/2200 [00:00<00:00, 412732.87 examples/s]
+Map:   0%|          | 0/2200 [00:00<?, ? examples/s]Map:   9%|▊         | 190/2200 [00:00<00:01, 1873.69 examples/s]Map:  17%|█▋        | 381/2200 [00:00<00:00, 1888.24 examples/s]Map:  26%|██▌       | 573/2200 [00:00<00:00, 1897.64 examples/s]Map:  39%|███▊      | 852/2200 [00:00<00:00, 1872.33 examples/s]Map:  50%|████▉     | 1089/2200 [00:00<00:00, 1459.01 examples/s]Map:  58%|█████▊    | 1276/2200 [00:00<00:00, 1558.60 examples/s]Map:  66%|██████▋   | 1463/2200 [00:00<00:00, 1638.87 examples/s]Map:  75%|███████▍  | 1643/2200 [00:00<00:00, 1681.03 examples/s]Map:  83%|████████▎ | 1827/2200 [00:01<00:00, 1722.33 examples/s]Map:  95%|█████████▌| 2090/2200 [00:01<00:00, 1647.97 examples/s]Map: 100%|██████████| 2200/2200 [00:01<00:00, 1670.17 examples/s]
+Filter:   0%|          | 0/2200 [00:00<?, ? examples/s]Filter: 100%|██████████| 2200/2200 [00:00<00:00, 46426.35 examples/s]
+Map:   0%|          | 0/2200 [00:00<?, ? examples/s]Map:  71%|███████   | 1556/2200 [00:00<00:00, 15459.94 examples/s]Map: 100%|██████████| 2200/2200 [00:00<00:00, 15379.96 examples/s]
+Filter:   0%|          | 0/2200 [00:00<?, ? examples/s]Filter: 100%|██████████| 2200/2200 [00:00<00:00, 487683.99 examples/s]
+Map:   0%|          | 0/2200 [00:00<?, ? examples/s]Map:  12%|█▏        | 270/2200 [00:00<00:00, 2665.04 examples/s]Map:  31%|███       | 687/2200 [00:00<00:00, 2732.74 examples/s]Map:  45%|████▌     | 1000/2200 [00:00<00:00, 2294.57 examples/s]Map:  59%|█████▊    | 1288/2200 [00:00<00:00, 2472.21 examples/s]Map:  71%|███████▏  | 1572/2200 [00:00<00:00, 2581.17 examples/s]Map:  84%|████████▍ | 1852/2200 [00:00<00:00, 2646.10 examples/s]Map: 100%|██████████| 2200/2200 [00:00<00:00, 2584.80 examples/s]Map: 100%|██████████| 2200/2200 [00:00<00:00, 2554.44 examples/s]
+Filter:   0%|          | 0/2200 [00:00<?, ? examples/s]Filter: 100%|██████████| 2200/2200 [00:00<00:00, 92019.79 examples/s]
+Map:   0%|          | 0/2200 [00:00<?, ? examples/s]Map:  60%|█████▉    | 1310/2200 [00:00<00:00, 12994.43 examples/s]Map: 100%|██████████| 2200/2200 [00:00<00:00, 12603.40 examples/s]
+Filter:   0%|          | 0/2200 [00:00<?, ? examples/s]Filter: 100%|██████████| 2200/2200 [00:00<00:00, 467308.25 examples/s]
+Map:   0%|          | 0/2200 [00:00<?, ? examples/s]Map:   7%|▋         | 152/2200 [00:00<00:01, 1500.97 examples/s]Map:  15%|█▍        | 325/2200 [00:00<00:01, 1629.42 examples/s]Map:  26%|██▌       | 574/2200 [00:00<00:00, 1644.35 examples/s]Map:  34%|███▍      | 743/2200 [00:00<00:00, 1657.65 examples/s]Map:  43%|████▎     | 938/2200 [00:00<00:00, 1502.42 examples/s]Map:  54%|█████▎    | 1178/2200 [00:00<00:00, 1385.70 examples/s]Map:  61%|██████▏   | 1349/2200 [00:00<00:00, 1462.52 examples/s]Map:  69%|██████▉   | 1522/2200 [00:00<00:00, 1528.19 examples/s]Map:  77%|███████▋  | 1701/2200 [00:01<00:00, 1596.26 examples/s]Map:  85%|████████▌ | 1879/2200 [00:01<00:00, 1644.60 examples/s]Map:  96%|█████████▌| 2114/2200 [00:01<00:00, 1609.45 examples/s]Map: 100%|██████████| 2200/2200 [00:01<00:00, 1559.42 examples/s]
+Filter:   0%|          | 0/2200 [00:00<?, ? examples/s]Filter: 100%|██████████| 2200/2200 [00:00<00:00, 77263.86 examples/s]
+[07:56:22] task GSM8K: train=1000 held-out=100
+[07:56:22] task CodeAlpaca: train=1000 held-out=100
+[07:56:22] task SciQ: train=1000 held-out=100
+[07:56:22] baseline evaluation of Qwen/Qwen2.5-1.5B
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8669.89it/s]
+[07:57:01] baseline: {'old_acc': 68.4, 'ARC': 78.0, 'MMLU': 58.8, 'mean_letter_mass': 0.99851}
+[07:57:01] === start qwen1.5b_main_FFT_s42 ===
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 6897.55it/s]
+{'loss': '0.4988', 'grad_norm': '6.057', 'learning_rate': '2e-05', 'epoch': '0.128'}
+{'loss': '0.3798', 'grad_norm': '2.834', 'learning_rate': '1.979e-05', 'epoch': '0.256'}
+{'loss': '0.3626', 'grad_norm': '2.395', 'learning_rate': '1.916e-05', 'epoch': '0.384'}
+{'loss': '0.3586', 'grad_norm': '2.458', 'learning_rate': '1.815e-05', 'epoch': '0.512'}
+{'loss': '0.3778', 'grad_norm': '2.431', 'learning_rate': '1.679e-05', 'epoch': '0.64'}
+{'loss': '0.3504', 'grad_norm': '2.155', 'learning_rate': '1.515e-05', 'epoch': '0.768'}
+{'loss': '0.3877', 'grad_norm': '2.382', 'learning_rate': '1.329e-05', 'epoch': '0.896'}
+{'loss': '0.3789', 'grad_norm': '4.253', 'learning_rate': '1.128e-05', 'epoch': '1'}
+{'loss': '0.1834', 'grad_norm': '2.21', 'learning_rate': '9.228e-06', 'epoch': '1.128'}
+{'loss': '0.1762', 'grad_norm': '2.628', 'learning_rate': '7.205e-06', 'epoch': '1.256'}
+{'loss': '0.1879', 'grad_norm': '2.545', 'learning_rate': '5.3e-06', 'epoch': '1.384'}
+{'loss': '0.1796', 'grad_norm': '1.833', 'learning_rate': '3.594e-06', 'epoch': '1.512'}
+{'loss': '0.1784', 'grad_norm': '2.294', 'learning_rate': '2.159e-06', 'epoch': '1.64'}
+{'loss': '0.1808', 'grad_norm': '1.874', 'learning_rate': '1.055e-06', 'epoch': '1.768'}
+{'loss': '0.1723', 'grad_norm': '2.26', 'learning_rate': '3.297e-07', 'epoch': '1.896'}
+{'loss': '0.1558', 'grad_norm': '3.72', 'learning_rate': '1.326e-08', 'epoch': '2'}
+{'train_runtime': '140.9', 'train_samples_per_second': '14.2', 'train_steps_per_second': '0.454', 'train_loss': '0.2818', 'epoch': '2'}
+[08:00:10] [qwen1.5b_main_FFT_s42] step 1 GSM8K: old acc 67.70% (ΔF +0.70 pp) | held-out loss 0.548 -> 0.355 | 141s | peak 33.1 GB
+{'loss': '0.5718', 'grad_norm': '4.134', 'learning_rate': '2e-05', 'epoch': '0.128'}
+{'loss': '0.5195', 'grad_norm': '2.858', 'learning_rate': '1.979e-05', 'epoch': '0.256'}
+{'loss': '0.5121', 'grad_norm': '2.917', 'learning_rate': '1.916e-05', 'epoch': '0.384'}
+{'loss': '0.5631', 'grad_norm': '3.377', 'learning_rate': '1.815e-05', 'epoch': '0.512'}
+{'loss': '0.5693', 'grad_norm': '3.284', 'learning_rate': '1.679e-05', 'epoch': '0.64'}
+{'loss': '0.5296', 'grad_norm': '2.669', 'learning_rate': '1.515e-05', 'epoch': '0.768'}
+{'loss': '0.5758', 'grad_norm': '3.343', 'learning_rate': '1.329e-05', 'epoch': '0.896'}
+{'loss': '0.5649', 'grad_norm': '5.872', 'learning_rate': '1.128e-05', 'epoch': '1'}
+{'loss': '0.2785', 'grad_norm': '2.694', 'learning_rate': '9.228e-06', 'epoch': '1.128'}
+{'loss': '0.3123', 'grad_norm': '2.103', 'learning_rate': '7.205e-06', 'epoch': '1.256'}
+{'loss': '0.2279', 'grad_norm': '1.809', 'learning_rate': '5.3e-06', 'epoch': '1.384'}
+{'loss': '0.2658', 'grad_norm': '4.494', 'learning_rate': '3.594e-06', 'epoch': '1.512'}
+{'loss': '0.2649', 'grad_norm': '2.066', 'learning_rate': '2.159e-06', 'epoch': '1.64'}
+{'loss': '0.2662', 'grad_norm': '3.28', 'learning_rate': '1.055e-06', 'epoch': '1.768'}
+{'loss': '0.2505', 'grad_norm': '2.621', 'learning_rate': '3.297e-07', 'epoch': '1.896'}
+{'loss': '0.2641', 'grad_norm': '6.244', 'learning_rate': '1.326e-08', 'epoch': '2'}
+{'train_runtime': '101.8', 'train_samples_per_second': '19.65', 'train_steps_per_second': '0.629', 'train_loss': '0.4085', 'epoch': '2'}
+[08:02:33] [qwen1.5b_main_FFT_s42] step 2 CodeAlpaca: old acc 66.00% (ΔF +2.40 pp) | held-out loss 0.725 -> 0.790 | 102s | peak 33.1 GB
+{'loss': '0.9129', 'grad_norm': '9.825', 'learning_rate': '2e-05', 'epoch': '0.128'}
+{'loss': '0.4149', 'grad_norm': '14.2', 'learning_rate': '1.979e-05', 'epoch': '0.256'}
+{'loss': '0.5164', 'grad_norm': '10.2', 'learning_rate': '1.916e-05', 'epoch': '0.384'}
+{'loss': '0.4547', 'grad_norm': '9.936', 'learning_rate': '1.815e-05', 'epoch': '0.512'}
+{'loss': '0.4381', 'grad_norm': '12.38', 'learning_rate': '1.679e-05', 'epoch': '0.64'}
+{'loss': '0.3203', 'grad_norm': '8.856', 'learning_rate': '1.515e-05', 'epoch': '0.768'}
+{'loss': '0.4406', 'grad_norm': '13.76', 'learning_rate': '1.329e-05', 'epoch': '0.896'}
+{'loss': '0.3665', 'grad_norm': '19.04', 'learning_rate': '1.128e-05', 'epoch': '1'}
+{'loss': '0.07481', 'grad_norm': '3.859', 'learning_rate': '9.228e-06', 'epoch': '1.128'}
+{'loss': '0.08222', 'grad_norm': '4.179', 'learning_rate': '7.205e-06', 'epoch': '1.256'}
+{'loss': '0.1015', 'grad_norm': '5.434', 'learning_rate': '5.3e-06', 'epoch': '1.384'}
+{'loss': '0.04619', 'grad_norm': '3.981', 'learning_rate': '3.594e-06', 'epoch': '1.512'}
+{'loss': '0.07724', 'grad_norm': '4.546', 'learning_rate': '2.159e-06', 'epoch': '1.64'}
+{'loss': '0.06445', 'grad_norm': '4.605', 'learning_rate': '1.055e-06', 'epoch': '1.768'}
+{'loss': '0.05686', 'grad_norm': '1.538', 'learning_rate': '3.297e-07', 'epoch': '1.896'}
+{'loss': '0.07136', 'grad_norm': '22.35', 'learning_rate': '1.326e-08', 'epoch': '2'}
+{'train_runtime': '109.5', 'train_samples_per_second': '18.27', 'train_steps_per_second': '0.585', 'train_loss': '0.2774', 'epoch': '2'}
+[08:05:03] [qwen1.5b_main_FFT_s42] step 3 SciQ: old acc 64.40% (ΔF +4.00 pp) | held-out loss 1.494 -> 0.453 | 110s | peak 32.0 GB
+[08:05:04] === saved results_runpod/runs/qwen1.5b_main_FFT_s42.json ===
+[08:05:04] === start qwen1.5b_main_LoRA_s42 ===
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 8483.79it/s]
+{'loss': '0.515', 'grad_norm': '0.6331', 'learning_rate': '0.0002', 'epoch': '0.128'}
+{'loss': '0.3819', 'grad_norm': '0.6496', 'learning_rate': '0.0001979', 'epoch': '0.256'}
+{'loss': '0.3459', 'grad_norm': '0.2884', 'learning_rate': '0.0001916', 'epoch': '0.384'}
+{'loss': '0.3358', 'grad_norm': '0.235', 'learning_rate': '0.0001815', 'epoch': '0.512'}
+{'loss': '0.3554', 'grad_norm': '0.2325', 'learning_rate': '0.0001679', 'epoch': '0.64'}
+{'loss': '0.326', 'grad_norm': '0.2002', 'learning_rate': '0.0001515', 'epoch': '0.768'}
+{'loss': '0.36', 'grad_norm': '0.227', 'learning_rate': '0.0001329', 'epoch': '0.896'}
+{'loss': '0.3559', 'grad_norm': '0.4526', 'learning_rate': '0.0001128', 'epoch': '1'}
+{'loss': '0.278', 'grad_norm': '0.2251', 'learning_rate': '9.228e-05', 'epoch': '1.128'}
+{'loss': '0.2943', 'grad_norm': '0.2648', 'learning_rate': '7.205e-05', 'epoch': '1.256'}
+{'loss': '0.3115', 'grad_norm': '0.2683', 'learning_rate': '5.3e-05', 'epoch': '1.384'}
+{'loss': '0.2918', 'grad_norm': '0.2294', 'learning_rate': '3.594e-05', 'epoch': '1.512'}
+{'loss': '0.2934', 'grad_norm': '0.2251', 'learning_rate': '2.159e-05', 'epoch': '1.64'}
+{'loss': '0.294', 'grad_norm': '0.2246', 'learning_rate': '1.055e-05', 'epoch': '1.768'}
+{'loss': '0.295', 'grad_norm': '0.2411', 'learning_rate': '3.297e-06', 'epoch': '1.896'}
+{'loss': '0.2689', 'grad_norm': '0.4744', 'learning_rate': '1.326e-07', 'epoch': '2'}
+{'train_runtime': '122.7', 'train_samples_per_second': '16.3', 'train_steps_per_second': '0.522', 'train_loss': '0.3314', 'epoch': '2'}
+[08:08:00] [qwen1.5b_main_LoRA_s42] step 1 GSM8K: old acc 68.50% (ΔF -0.10 pp) | held-out loss 0.548 -> 0.313 | 123s | peak 26.8 GB
+{'loss': '0.5625', 'grad_norm': '0.4158', 'learning_rate': '0.0002', 'epoch': '0.128'}
+{'loss': '0.4937', 'grad_norm': '0.3251', 'learning_rate': '0.0001979', 'epoch': '0.256'}
+{'loss': '0.4835', 'grad_norm': '0.2855', 'learning_rate': '0.0001916', 'epoch': '0.384'}
+{'loss': '0.5136', 'grad_norm': '0.2918', 'learning_rate': '0.0001815', 'epoch': '0.512'}
+{'loss': '0.5325', 'grad_norm': '0.3', 'learning_rate': '0.0001679', 'epoch': '0.64'}
+{'loss': '0.4925', 'grad_norm': '0.2462', 'learning_rate': '0.0001515', 'epoch': '0.768'}
+{'loss': '0.5301', 'grad_norm': '0.3177', 'learning_rate': '0.0001329', 'epoch': '0.896'}
+{'loss': '0.5194', 'grad_norm': '0.5523', 'learning_rate': '0.0001128', 'epoch': '1'}
+{'loss': '0.4168', 'grad_norm': '0.277', 'learning_rate': '9.228e-05', 'epoch': '1.128'}
+{'loss': '0.4976', 'grad_norm': '0.2404', 'learning_rate': '7.205e-05', 'epoch': '1.256'}
+{'loss': '0.3708', 'grad_norm': '0.2192', 'learning_rate': '5.3e-05', 'epoch': '1.384'}
+{'loss': '0.4265', 'grad_norm': '0.2437', 'learning_rate': '3.594e-05', 'epoch': '1.512'}
+{'loss': '0.4659', 'grad_norm': '0.2217', 'learning_rate': '2.159e-05', 'epoch': '1.64'}
+{'loss': '0.4256', 'grad_norm': '0.3471', 'learning_rate': '1.055e-05', 'epoch': '1.768'}
+{'loss': '0.447', 'grad_norm': '0.2489', 'learning_rate': '3.297e-06', 'epoch': '1.896'}
+{'loss': '0.3881', 'grad_norm': '0.719', 'learning_rate': '1.326e-07', 'epoch': '2'}
+{'train_runtime': '82.96', 'train_samples_per_second': '24.11', 'train_steps_per_second': '0.771', 'train_loss': '0.4729', 'epoch': '2'}
+[08:10:07] [qwen1.5b_main_LoRA_s42] step 2 CodeAlpaca: old acc 67.10% (ΔF +1.30 pp) | held-out loss 0.707 -> 0.706 | 83s | peak 26.8 GB
+{'loss': '0.7781', 'grad_norm': '1.053', 'learning_rate': '0.0002', 'epoch': '0.128'}
+{'loss': '0.439', 'grad_norm': '1.819', 'learning_rate': '0.0001979', 'epoch': '0.256'}
+{'loss': '0.4694', 'grad_norm': '1.263', 'learning_rate': '0.0001916', 'epoch': '0.384'}
+{'loss': '0.4304', 'grad_norm': '1.211', 'learning_rate': '0.0001815', 'epoch': '0.512'}
+{'loss': '0.4019', 'grad_norm': '1.308', 'learning_rate': '0.0001679', 'epoch': '0.64'}
+{'loss': '0.3115', 'grad_norm': '1.295', 'learning_rate': '0.0001515', 'epoch': '0.768'}
+{'loss': '0.3857', 'grad_norm': '1.438', 'learning_rate': '0.0001329', 'epoch': '0.896'}
+{'loss': '0.35', 'grad_norm': '2.19', 'learning_rate': '0.0001128', 'epoch': '1'}
+{'loss': '0.1491', 'grad_norm': '0.6798', 'learning_rate': '9.228e-05', 'epoch': '1.128'}
+{'loss': '0.1824', 'grad_norm': '0.6514', 'learning_rate': '7.205e-05', 'epoch': '1.256'}
+{'loss': '0.2351', 'grad_norm': '1.293', 'learning_rate': '5.3e-05', 'epoch': '1.384'}
+{'loss': '0.191', 'grad_norm': '0.847', 'learning_rate': '3.594e-05', 'epoch': '1.512'}
+{'loss': '0.2218', 'grad_norm': '0.9744', 'learning_rate': '2.159e-05', 'epoch': '1.64'}
+{'loss': '0.1611', 'grad_norm': '0.9301', 'learning_rate': '1.055e-05', 'epoch': '1.768'}
+{'loss': '0.1834', 'grad_norm': '0.7166', 'learning_rate': '3.297e-06', 'epoch': '1.896'}
+{'loss': '0.1267', 'grad_norm': '2.217', 'learning_rate': '1.326e-07', 'epoch': '2'}
+{'train_runtime': '90.99', 'train_samples_per_second': '21.98', 'train_steps_per_second': '0.703', 'train_loss': '0.3135', 'epoch': '2'}
+[08:12:23] [qwen1.5b_main_LoRA_s42] step 3 SciQ: old acc 66.90% (ΔF +1.50 pp) | held-out loss 1.007 -> 0.319 | 91s | peak 23.1 GB
+[08:12:23] === saved results_runpod/runs/qwen1.5b_main_LoRA_s42.json ===
+[08:12:23] === start qwen1.5b_main_FFT_s43 ===
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 6320.58it/s]
+{'loss': '0.4944', 'grad_norm': '6.183', 'learning_rate': '2e-05', 'epoch': '0.128'}
+{'loss': '0.3808', 'grad_norm': '3.523', 'learning_rate': '1.979e-05', 'epoch': '0.256'}
+{'loss': '0.3861', 'grad_norm': '2.598', 'learning_rate': '1.916e-05', 'epoch': '0.384'}
+{'loss': '0.3635', 'grad_norm': '2.392', 'learning_rate': '1.815e-05', 'epoch': '0.512'}
+{'loss': '0.3658', 'grad_norm': '2.204', 'learning_rate': '1.679e-05', 'epoch': '0.64'}
+{'loss': '0.3765', 'grad_norm': '2.279', 'learning_rate': '1.515e-05', 'epoch': '0.768'}
+{'loss': '0.3694', 'grad_norm': '2.184', 'learning_rate': '1.329e-05', 'epoch': '0.896'}
+{'loss': '0.3332', 'grad_norm': '4.204', 'learning_rate': '1.128e-05', 'epoch': '1'}
+{'loss': '0.2055', 'grad_norm': '2.686', 'learning_rate': '9.228e-06', 'epoch': '1.128'}
+{'loss': '0.1882', 'grad_norm': '2.562', 'learning_rate': '7.205e-06', 'epoch': '1.256'}
+{'loss': '0.1764', 'grad_norm': '2.345', 'learning_rate': '5.3e-06', 'epoch': '1.384'}
+{'loss': '0.1589', 'grad_norm': '1.992', 'learning_rate': '3.594e-06', 'epoch': '1.512'}
+{'loss': '0.1622', 'grad_norm': '2.236', 'learning_rate': '2.159e-06', 'epoch': '1.64'}
+{'loss': '0.1714', 'grad_norm': '1.92', 'learning_rate': '1.055e-06', 'epoch': '1.768'}
+{'loss': '0.1748', 'grad_norm': '2.893', 'learning_rate': '3.297e-07', 'epoch': '1.896'}
+{'loss': '0.1641', 'grad_norm': '3.851', 'learning_rate': '1.326e-08', 'epoch': '2'}
+{'train_runtime': '141.3', 'train_samples_per_second': '14.15', 'train_steps_per_second': '0.453', 'train_loss': '0.2795', 'epoch': '2'}
+[08:15:33] [qwen1.5b_main_FFT_s43] step 1 GSM8K: old acc 67.80% (ΔF +0.60 pp) | held-out loss 0.548 -> 0.362 | 142s | peak 33.1 GB
+{'loss': '0.5384', 'grad_norm': '4.303', 'learning_rate': '2e-05', 'epoch': '0.128'}
+{'loss': '0.6065', 'grad_norm': '3.04', 'learning_rate': '1.979e-05', 'epoch': '0.256'}
+{'loss': '0.4747', 'grad_norm': '2.493', 'learning_rate': '1.916e-05', 'epoch': '0.384'}
+{'loss': '0.5424', 'grad_norm': '3.371', 'learning_rate': '1.815e-05', 'epoch': '0.512'}
+{'loss': '0.5937', 'grad_norm': '2.469', 'learning_rate': '1.679e-05', 'epoch': '0.64'}
+{'loss': '0.5511', 'grad_norm': '3.743', 'learning_rate': '1.515e-05', 'epoch': '0.768'}
+{'loss': '0.5721', 'grad_norm': '2.775', 'learning_rate': '1.329e-05', 'epoch': '0.896'}
+{'loss': '0.5112', 'grad_norm': '7.389', 'learning_rate': '1.128e-05', 'epoch': '1'}
+{'loss': '0.3086', 'grad_norm': '2.07', 'learning_rate': '9.228e-06', 'epoch': '1.128'}
+{'loss': '0.2942', 'grad_norm': '2.29', 'learning_rate': '7.205e-06', 'epoch': '1.256'}
+{'loss': '0.275', 'grad_norm': '3.162', 'learning_rate': '5.3e-06', 'epoch': '1.384'}
+{'loss': '0.2655', 'grad_norm': '2.552', 'learning_rate': '3.594e-06', 'epoch': '1.512'}
+{'loss': '0.229', 'grad_norm': '2.204', 'learning_rate': '2.159e-06', 'epoch': '1.64'}
+{'loss': '0.2386', 'grad_norm': '2.616', 'learning_rate': '1.055e-06', 'epoch': '1.768'}
+{'loss': '0.224', 'grad_norm': '2.749', 'learning_rate': '3.297e-07', 'epoch': '1.896'}
+{'loss': '0.2178', 'grad_norm': '6.099', 'learning_rate': '1.326e-08', 'epoch': '2'}
+{'train_runtime': '101.8', 'train_samples_per_second': '19.64', 'train_steps_per_second': '0.629', 'train_loss': '0.4027', 'epoch': '2'}
+[08:17:56] [qwen1.5b_main_FFT_s43] step 2 CodeAlpaca: old acc 67.50% (ΔF +0.90 pp) | held-out loss 0.725 -> 0.793 | 102s | peak 33.2 GB
+{'loss': '1.222', 'grad_norm': '11.91', 'learning_rate': '2e-05', 'epoch': '0.128'}
+{'loss': '0.4265', 'grad_norm': '12.82', 'learning_rate': '1.979e-05', 'epoch': '0.256'}
+{'loss': '0.4934', 'grad_norm': '15.96', 'learning_rate': '1.916e-05', 'epoch': '0.384'}
+{'loss': '0.426', 'grad_norm': '12.03', 'learning_rate': '1.815e-05', 'epoch': '0.512'}
+{'loss': '0.5245', 'grad_norm': '10.8', 'learning_rate': '1.679e-05', 'epoch': '0.64'}
+{'loss': '0.4035', 'grad_norm': '9.868', 'learning_rate': '1.515e-05', 'epoch': '0.768'}
+{'loss': '0.3671', 'grad_norm': '12.22', 'learning_rate': '1.329e-05', 'epoch': '0.896'}
+{'loss': '0.3952', 'grad_norm': '22.71', 'learning_rate': '1.128e-05', 'epoch': '1'}
+{'loss': '0.1199', 'grad_norm': '4.414', 'learning_rate': '9.228e-06', 'epoch': '1.128'}
+{'loss': '0.09196', 'grad_norm': '3.496', 'learning_rate': '7.205e-06', 'epoch': '1.256'}
+{'loss': '0.06281', 'grad_norm': '4.285', 'learning_rate': '5.3e-06', 'epoch': '1.384'}
+{'loss': '0.04687', 'grad_norm': '4.678', 'learning_rate': '3.594e-06', 'epoch': '1.512'}
+{'loss': '0.05447', 'grad_norm': '0.9542', 'learning_rate': '2.159e-06', 'epoch': '1.64'}
+{'loss': '0.09233', 'grad_norm': '6.881', 'learning_rate': '1.055e-06', 'epoch': '1.768'}
+{'loss': '0.09339', 'grad_norm': '10.15', 'learning_rate': '3.297e-07', 'epoch': '1.896'}
+{'loss': '0.05536', 'grad_norm': '0.8799', 'learning_rate': '1.326e-08', 'epoch': '2'}
+{'train_runtime': '109.5', 'train_samples_per_second': '18.26', 'train_steps_per_second': '0.584', 'train_loss': '0.3047', 'epoch': '2'}
+[08:20:27] [qwen1.5b_main_FFT_s43] step 3 SciQ: old acc 66.40% (ΔF +2.00 pp) | held-out loss 2.271 -> 0.407 | 110s | peak 32.0 GB
+[08:20:27] === saved results_runpod/runs/qwen1.5b_main_FFT_s43.json ===
+[08:20:27] === start qwen1.5b_main_LoRA_s43 ===
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 6226.67it/s]
+{'loss': '0.5094', 'grad_norm': '0.7292', 'learning_rate': '0.0002', 'epoch': '0.128'}
+{'loss': '0.377', 'grad_norm': '0.4548', 'learning_rate': '0.0001979', 'epoch': '0.256'}
+{'loss': '0.3786', 'grad_norm': '0.2789', 'learning_rate': '0.0001916', 'epoch': '0.384'}
+{'loss': '0.3475', 'grad_norm': '0.2298', 'learning_rate': '0.0001815', 'epoch': '0.512'}
+{'loss': '0.3407', 'grad_norm': '0.2261', 'learning_rate': '0.0001679', 'epoch': '0.64'}
+{'loss': '0.3458', 'grad_norm': '0.2383', 'learning_rate': '0.0001515', 'epoch': '0.768'}
+{'loss': '0.3423', 'grad_norm': '0.2184', 'learning_rate': '0.0001329', 'epoch': '0.896'}
+{'loss': '0.3139', 'grad_norm': '0.5673', 'learning_rate': '0.0001128', 'epoch': '1'}
+{'loss': '0.3103', 'grad_norm': '0.2361', 'learning_rate': '9.228e-05', 'epoch': '1.128'}
+{'loss': '0.2953', 'grad_norm': '0.2632', 'learning_rate': '7.205e-05', 'epoch': '1.256'}
+{'loss': '0.2985', 'grad_norm': '0.2354', 'learning_rate': '5.3e-05', 'epoch': '1.384'}
+{'loss': '0.2743', 'grad_norm': '0.2431', 'learning_rate': '3.594e-05', 'epoch': '1.512'}
+{'loss': '0.2784', 'grad_norm': '0.232', 'learning_rate': '2.159e-05', 'epoch': '1.64'}
+{'loss': '0.2946', 'grad_norm': '0.2655', 'learning_rate': '1.055e-05', 'epoch': '1.768'}
+{'loss': '0.2876', 'grad_norm': '0.2829', 'learning_rate': '3.297e-06', 'epoch': '1.896'}
+{'loss': '0.2933', 'grad_norm': '0.6553', 'learning_rate': '1.326e-07', 'epoch': '2'}
+{'train_runtime': '122.9', 'train_samples_per_second': '16.27', 'train_steps_per_second': '0.521', 'train_loss': '0.3305', 'epoch': '2'}
+[08:23:23] [qwen1.5b_main_LoRA_s43] step 1 GSM8K: old acc 68.80% (ΔF -0.40 pp) | held-out loss 0.548 -> 0.315 | 123s | peak 26.7 GB
+{'loss': '0.5345', 'grad_norm': '0.361', 'learning_rate': '0.0002', 'epoch': '0.128'}
+{'loss': '0.5965', 'grad_norm': '0.3494', 'learning_rate': '0.0001979', 'epoch': '0.256'}
+{'loss': '0.4479', 'grad_norm': '0.2654', 'learning_rate': '0.0001916', 'epoch': '0.384'}
+{'loss': '0.4965', 'grad_norm': '0.2624', 'learning_rate': '0.0001815', 'epoch': '0.512'}
+{'loss': '0.5499', 'grad_norm': '0.2346', 'learning_rate': '0.0001679', 'epoch': '0.64'}
+{'loss': '0.4972', 'grad_norm': '0.3369', 'learning_rate': '0.0001515', 'epoch': '0.768'}
+{'loss': '0.5355', 'grad_norm': '0.2481', 'learning_rate': '0.0001329', 'epoch': '0.896'}
+{'loss': '0.4655', 'grad_norm': '0.6728', 'learning_rate': '0.0001128', 'epoch': '1'}
+{'loss': '0.4296', 'grad_norm': '0.2119', 'learning_rate': '9.228e-05', 'epoch': '1.128'}
+{'loss': '0.4773', 'grad_norm': '0.2359', 'learning_rate': '7.205e-05', 'epoch': '1.256'}
+{'loss': '0.4404', 'grad_norm': '0.2047', 'learning_rate': '5.3e-05', 'epoch': '1.384'}
+{'loss': '0.4795', 'grad_norm': '0.2557', 'learning_rate': '3.594e-05', 'epoch': '1.512'}
+{'loss': '0.4056', 'grad_norm': '0.2539', 'learning_rate': '2.159e-05', 'epoch': '1.64'}
+{'loss': '0.4127', 'grad_norm': '0.2612', 'learning_rate': '1.055e-05', 'epoch': '1.768'}
+{'loss': '0.3889', 'grad_norm': '0.2895', 'learning_rate': '3.297e-06', 'epoch': '1.896'}
+{'loss': '0.3891', 'grad_norm': '0.5775', 'learning_rate': '1.326e-07', 'epoch': '2'}
+{'train_runtime': '83.12', 'train_samples_per_second': '24.06', 'train_steps_per_second': '0.77', 'train_loss': '0.4717', 'epoch': '2'}
+[08:25:29] [qwen1.5b_main_LoRA_s43] step 2 CodeAlpaca: old acc 67.40% (ΔF +1.00 pp) | held-out loss 0.712 -> 0.709 | 83s | peak 26.7 GB
+{'loss': '0.8824', 'grad_norm': '1.253', 'learning_rate': '0.0002', 'epoch': '0.128'}
+{'loss': '0.5', 'grad_norm': '1.396', 'learning_rate': '0.0001979', 'epoch': '0.256'}
+{'loss': '0.5297', 'grad_norm': '1.764', 'learning_rate': '0.0001916', 'epoch': '0.384'}
+{'loss': '0.41', 'grad_norm': '1.34', 'learning_rate': '0.0001815', 'epoch': '0.512'}
+{'loss': '0.4979', 'grad_norm': '1.389', 'learning_rate': '0.0001679', 'epoch': '0.64'}
+{'loss': '0.3508', 'grad_norm': '1.17', 'learning_rate': '0.0001515', 'epoch': '0.768'}
+{'loss': '0.3626', 'grad_norm': '1.238', 'learning_rate': '0.0001329', 'epoch': '0.896'}
+{'loss': '0.2677', 'grad_norm': '2.152', 'learning_rate': '0.0001128', 'epoch': '1'}
+{'loss': '0.2161', 'grad_norm': '1.045', 'learning_rate': '9.228e-05', 'epoch': '1.128'}
+{'loss': '0.2381', 'grad_norm': '0.9045', 'learning_rate': '7.205e-05', 'epoch': '1.256'}
+{'loss': '0.1743', 'grad_norm': '0.7489', 'learning_rate': '5.3e-05', 'epoch': '1.384'}
+{'loss': '0.122', 'grad_norm': '0.6057', 'learning_rate': '3.594e-05', 'epoch': '1.512'}
+{'loss': '0.137', 'grad_norm': '0.8846', 'learning_rate': '2.159e-05', 'epoch': '1.64'}
+{'loss': '0.1993', 'grad_norm': '1.086', 'learning_rate': '1.055e-05', 'epoch': '1.768'}
+{'loss': '0.1784', 'grad_norm': '0.7312', 'learning_rate': '3.297e-06', 'epoch': '1.896'}
+{'loss': '0.207', 'grad_norm': '0.4786', 'learning_rate': '1.326e-07', 'epoch': '2'}
+{'train_runtime': '90.39', 'train_samples_per_second': '22.13', 'train_steps_per_second': '0.708', 'train_loss': '0.3296', 'epoch': '2'}
+[08:27:44] [qwen1.5b_main_LoRA_s43] step 3 SciQ: old acc 67.60% (ΔF +0.80 pp) | held-out loss 1.285 -> 0.314 | 91s | peak 23.1 GB
+[08:27:45] === saved results_runpod/runs/qwen1.5b_main_LoRA_s43.json ===
+[08:27:45] === start qwen1.5b_main_FFT_s44 ===
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 10330.80it/s]
+{'loss': '0.5209', 'grad_norm': '5.736', 'learning_rate': '2e-05', 'epoch': '0.128'}
+{'loss': '0.3831', 'grad_norm': '3.457', 'learning_rate': '1.979e-05', 'epoch': '0.256'}
+{'loss': '0.3824', 'grad_norm': '2.328', 'learning_rate': '1.916e-05', 'epoch': '0.384'}
+{'loss': '0.3493', 'grad_norm': '2.58', 'learning_rate': '1.815e-05', 'epoch': '0.512'}
+{'loss': '0.3561', 'grad_norm': '2.379', 'learning_rate': '1.679e-05', 'epoch': '0.64'}
+{'loss': '0.3748', 'grad_norm': '2.173', 'learning_rate': '1.515e-05', 'epoch': '0.768'}
+{'loss': '0.3597', 'grad_norm': '2.571', 'learning_rate': '1.329e-05', 'epoch': '0.896'}
+{'loss': '0.3637', 'grad_norm': '5.152', 'learning_rate': '1.128e-05', 'epoch': '1'}
+{'loss': '0.2102', 'grad_norm': '1.782', 'learning_rate': '9.228e-06', 'epoch': '1.128'}
+{'loss': '0.1832', 'grad_norm': '3.417', 'learning_rate': '7.205e-06', 'epoch': '1.256'}
+{'loss': '0.1669', 'grad_norm': '2.719', 'learning_rate': '5.3e-06', 'epoch': '1.384'}
+{'loss': '0.1689', 'grad_norm': '1.972', 'learning_rate': '3.594e-06', 'epoch': '1.512'}
+{'loss': '0.1691', 'grad_norm': '1.976', 'learning_rate': '2.159e-06', 'epoch': '1.64'}
+{'loss': '0.1841', 'grad_norm': '2.213', 'learning_rate': '1.055e-06', 'epoch': '1.768'}
+{'loss': '0.1744', 'grad_norm': '2.428', 'learning_rate': '3.297e-07', 'epoch': '1.896'}
+{'loss': '0.1845', 'grad_norm': '6.618', 'learning_rate': '1.326e-08', 'epoch': '2'}
+{'train_runtime': '141', 'train_samples_per_second': '14.18', 'train_steps_per_second': '0.454', 'train_loss': '0.2832', 'epoch': '2'}
+[08:30:54] [qwen1.5b_main_FFT_s44] step 1 GSM8K: old acc 68.30% (ΔF +0.10 pp) | held-out loss 0.548 -> 0.358 | 141s | peak 33.1 GB
+{'loss': '0.5403', 'grad_norm': '3.512', 'learning_rate': '2e-05', 'epoch': '0.128'}
+{'loss': '0.5999', 'grad_norm': '3.484', 'learning_rate': '1.979e-05', 'epoch': '0.256'}
+{'loss': '0.5675', 'grad_norm': '2.799', 'learning_rate': '1.916e-05', 'epoch': '0.384'}
+{'loss': '0.6058', 'grad_norm': '3.105', 'learning_rate': '1.815e-05', 'epoch': '0.512'}
+{'loss': '0.5213', 'grad_norm': '3.197', 'learning_rate': '1.679e-05', 'epoch': '0.64'}
+{'loss': '0.5305', 'grad_norm': '2.867', 'learning_rate': '1.515e-05', 'epoch': '0.768'}
+{'loss': '0.5202', 'grad_norm': '2.905', 'learning_rate': '1.329e-05', 'epoch': '0.896'}
+{'loss': '0.4962', 'grad_norm': '6.564', 'learning_rate': '1.128e-05', 'epoch': '1'}
+{'loss': '0.3086', 'grad_norm': '2.319', 'learning_rate': '9.228e-06', 'epoch': '1.128'}
+{'loss': '0.2919', 'grad_norm': '2.209', 'learning_rate': '7.205e-06', 'epoch': '1.256'}
+{'loss': '0.2496', 'grad_norm': '2.59', 'learning_rate': '5.3e-06', 'epoch': '1.384'}
+{'loss': '0.2644', 'grad_norm': '2.273', 'learning_rate': '3.594e-06', 'epoch': '1.512'}
+{'loss': '0.2602', 'grad_norm': '2.307', 'learning_rate': '2.159e-06', 'epoch': '1.64'}
+{'loss': '0.2931', 'grad_norm': '2.458', 'learning_rate': '1.055e-06', 'epoch': '1.768'}
+{'loss': '0.2002', 'grad_norm': '2.296', 'learning_rate': '3.297e-07', 'epoch': '1.896'}
+{'loss': '0.2383', 'grad_norm': '3.872', 'learning_rate': '1.326e-08', 'epoch': '2'}
+{'train_runtime': '100.8', 'train_samples_per_second': '19.85', 'train_steps_per_second': '0.635', 'train_loss': '0.4055', 'epoch': '2'}
+[08:33:16] [qwen1.5b_main_FFT_s44] step 2 CodeAlpaca: old acc 67.60% (ΔF +0.80 pp) | held-out loss 0.728 -> 0.802 | 101s | peak 33.1 GB
+{'loss': '1.303', 'grad_norm': '14.89', 'learning_rate': '2e-05', 'epoch': '0.128'}
+{'loss': '0.4943', 'grad_norm': '13.19', 'learning_rate': '1.979e-05', 'epoch': '0.256'}
+{'loss': '0.4287', 'grad_norm': '10.94', 'learning_rate': '1.916e-05', 'epoch': '0.384'}
+{'loss': '0.3581', 'grad_norm': '7.769', 'learning_rate': '1.815e-05', 'epoch': '0.512'}
+{'loss': '0.3133', 'grad_norm': '7.724', 'learning_rate': '1.679e-05', 'epoch': '0.64'}
+{'loss': '0.4393', 'grad_norm': '14.95', 'learning_rate': '1.515e-05', 'epoch': '0.768'}
+{'loss': '0.3998', 'grad_norm': '11.58', 'learning_rate': '1.329e-05', 'epoch': '0.896'}
+{'loss': '0.432', 'grad_norm': '8.152', 'learning_rate': '1.128e-05', 'epoch': '1'}
+{'loss': '0.08016', 'grad_norm': '7.287', 'learning_rate': '9.228e-06', 'epoch': '1.128'}
+{'loss': '0.08135', 'grad_norm': '4.587', 'learning_rate': '7.205e-06', 'epoch': '1.256'}
+{'loss': '0.0571', 'grad_norm': '3.621', 'learning_rate': '5.3e-06', 'epoch': '1.384'}
+{'loss': '0.0764', 'grad_norm': '5.274', 'learning_rate': '3.594e-06', 'epoch': '1.512'}
+{'loss': '0.08299', 'grad_norm': '5.415', 'learning_rate': '2.159e-06', 'epoch': '1.64'}
+{'loss': '0.06402', 'grad_norm': '3.51', 'learning_rate': '1.055e-06', 'epoch': '1.768'}
+{'loss': '0.03886', 'grad_norm': '0.9661', 'learning_rate': '3.297e-07', 'epoch': '1.896'}
+{'loss': '0.08921', 'grad_norm': '2.4', 'learning_rate': '1.326e-08', 'epoch': '2'}
+{'train_runtime': '109.2', 'train_samples_per_second': '18.32', 'train_steps_per_second': '0.586', 'train_loss': '0.2962', 'epoch': '2'}
+[08:35:46] [qwen1.5b_main_FFT_s44] step 3 SciQ: old acc 65.80% (ΔF +2.60 pp) | held-out loss 1.884 -> 0.368 | 109s | peak 32.0 GB
+[08:35:47] === saved results_runpod/runs/qwen1.5b_main_FFT_s44.json ===
+[08:35:47] === start qwen1.5b_main_LoRA_s44 ===
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights: 100%|██████████| 338/338 [00:00<00:00, 6437.19it/s]
+{'loss': '0.5359', 'grad_norm': '0.5691', 'learning_rate': '0.0002', 'epoch': '0.128'}
+{'loss': '0.3819', 'grad_norm': '0.4827', 'learning_rate': '0.0001979', 'epoch': '0.256'}
+{'loss': '0.3617', 'grad_norm': '0.3129', 'learning_rate': '0.0001916', 'epoch': '0.384'}
+{'loss': '0.3289', 'grad_norm': '0.2244', 'learning_rate': '0.0001815', 'epoch': '0.512'}
+{'loss': '0.3284', 'grad_norm': '0.2483', 'learning_rate': '0.0001679', 'epoch': '0.64'}
+{'loss': '0.3466', 'grad_norm': '0.2662', 'learning_rate': '0.0001515', 'epoch': '0.768'}
+{'loss': '0.3318', 'grad_norm': '0.2552', 'learning_rate': '0.0001329', 'epoch': '0.896'}
+{'loss': '0.3454', 'grad_norm': '0.5859', 'learning_rate': '0.0001128', 'epoch': '1'}
+{'loss': '0.3021', 'grad_norm': '0.2292', 'learning_rate': '9.228e-05', 'epoch': '1.128'}
+{'loss': '0.2875', 'grad_norm': '0.242', 'learning_rate': '7.205e-05', 'epoch': '1.256'}
+{'loss': '0.2673', 'grad_norm': '0.2621', 'learning_rate': '5.3e-05', 'epoch': '1.384'}
+{'loss': '0.2776', 'grad_norm': '0.267', 'learning_rate': '3.594e-05', 'epoch': '1.512'}
+{'loss': '0.2943', 'grad_norm': '0.2644', 'learning_rate': '2.159e-05', 'epoch': '1.64'}
+{'loss': '0.302', 'grad_norm': '0.272', 'learning_rate': '1.055e-05', 'epoch': '1.768'}
+{'loss': '0.2874', 'grad_norm': '0.2634', 'learning_rate': '3.297e-06', 'epoch': '1.896'}
+{'loss': '0.2988', 'grad_norm': '0.6441', 'learning_rate': '1.326e-07', 'epoch': '2'}
+{'train_runtime': '122.4', 'train_samples_per_second': '16.34', 'train_steps_per_second': '0.523', 'train_loss': '0.3299', 'epoch': '2'}
+[08:38:41] [qwen1.5b_main_LoRA_s44] step 1 GSM8K: old acc 68.70% (ΔF -0.30 pp) | held-out loss 0.548 -> 0.314 | 123s | peak 26.8 GB
+{'loss': '0.5366', 'grad_norm': '0.3019', 'learning_rate': '0.0002', 'epoch': '0.128'}
+{'loss': '0.572', 'grad_norm': '0.3094', 'learning_rate': '0.0001979', 'epoch': '0.256'}
+{'loss': '0.5253', 'grad_norm': '0.244', 'learning_rate': '0.0001916', 'epoch': '0.384'}
+{'loss': '0.5675', 'grad_norm': '0.2709', 'learning_rate': '0.0001815', 'epoch': '0.512'}
+{'loss': '0.4788', 'grad_norm': '0.2599', 'learning_rate': '0.0001679', 'epoch': '0.64'}
+{'loss': '0.4917', 'grad_norm': '0.2588', 'learning_rate': '0.0001515', 'epoch': '0.768'}
+{'loss': '0.4659', 'grad_norm': '0.275', 'learning_rate': '0.0001329', 'epoch': '0.896'}
+{'loss': '0.462', 'grad_norm': '0.6072', 'learning_rate': '0.0001128', 'epoch': '1'}
+{'loss': '0.4704', 'grad_norm': '0.2462', 'learning_rate': '9.228e-05', 'epoch': '1.128'}
+{'loss': '0.4742', 'grad_norm': '0.2191', 'learning_rate': '7.205e-05', 'epoch': '1.256'}
+{'loss': '0.4068', 'grad_norm': '0.2752', 'learning_rate': '5.3e-05', 'epoch': '1.384'}
+{'loss': '0.4341', 'grad_norm': '0.2547', 'learning_rate': '3.594e-05', 'epoch': '1.512'}
+{'loss': '0.456', 'grad_norm': '0.2248', 'learning_rate': '2.159e-05', 'epoch': '1.64'}
+{'loss': '0.4819', 'grad_norm': '0.2601', 'learning_rate': '1.055e-05', 'epoch': '1.768'}
+{'loss': '0.3312', 'grad_norm': '0.2246', 'learning_rate': '3.297e-06', 'epoch': '1.896'}
+{'loss': '0.3996', 'grad_norm': '0.5008', 'learning_rate': '1.326e-07', 'epoch': '2'}
+{'train_runtime': '81.81', 'train_samples_per_second': '24.45', 'train_steps_per_second': '0.782', 'train_loss': '0.4721', 'epoch': '2'}
+[08:40:47] [qwen1.5b_main_LoRA_s44] step 2 CodeAlpaca: old acc 67.20% (ΔF +1.20 pp) | held-out loss 0.714 -> 0.710 | 82s | peak 26.7 GB
+{'loss': '0.8667', 'grad_norm': '1.813', 'learning_rate': '0.0002', 'epoch': '0.128'}
+{'loss': '0.5118', 'grad_norm': '2.001', 'learning_rate': '0.0001979', 'epoch': '0.256'}
+{'loss': '0.4368', 'grad_norm': '1.59', 'learning_rate': '0.0001916', 'epoch': '0.384'}
+{'loss': '0.3286', 'grad_norm': '0.8887', 'learning_rate': '0.0001815', 'epoch': '0.512'}
+{'loss': '0.3004', 'grad_norm': '0.926', 'learning_rate': '0.0001679', 'epoch': '0.64'}
+{'loss': '0.3872', 'grad_norm': '1.701', 'learning_rate': '0.0001515', 'epoch': '0.768'}
+{'loss': '0.361', 'grad_norm': '1.089', 'learning_rate': '0.0001329', 'epoch': '0.896'}
+{'loss': '0.42', 'grad_norm': '1.076', 'learning_rate': '0.0001128', 'epoch': '1'}
+{'loss': '0.2264', 'grad_norm': '0.6698', 'learning_rate': '9.228e-05', 'epoch': '1.128'}
+{'loss': '0.1784', 'grad_norm': '0.589', 'learning_rate': '7.205e-05', 'epoch': '1.256'}
+{'loss': '0.2139', 'grad_norm': '1.074', 'learning_rate': '5.3e-05', 'epoch': '1.384'}
+{'loss': '0.1532', 'grad_norm': '0.581', 'learning_rate': '3.594e-05', 'epoch': '1.512'}
+{'loss': '0.176', 'grad_norm': '0.9359', 'learning_rate': '2.159e-05', 'epoch': '1.64'}
+{'loss': '0.1683', 'grad_norm': '0.8341', 'learning_rate': '1.055e-05', 'epoch': '1.768'}
+{'loss': '0.1299', 'grad_norm': '0.4212', 'learning_rate': '3.297e-06', 'epoch': '1.896'}
+{'loss': '0.1962', 'grad_norm': '1.145', 'learning_rate': '1.326e-07', 'epoch': '2'}
+{'train_runtime': '90.45', 'train_samples_per_second': '22.11', 'train_steps_per_second': '0.708', 'train_loss': '0.3159', 'epoch': '2'}
+[08:43:02] [qwen1.5b_main_LoRA_s44] step 3 SciQ: old acc 67.60% (ΔF +0.80 pp) | held-out loss 0.924 -> 0.322 | 91s | peak 23.2 GB
+[08:43:02] === saved results_runpod/runs/qwen1.5b_main_LoRA_s44.json ===
+[08:43:02] all requested runs finished

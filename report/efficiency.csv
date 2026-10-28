@@ -1,0 +1,5 @@
+model,method,gpu,precision,train_time_per_step_min,peak_vram_gb,trainable_params,total_params,trainable_percent
+Qwen2.5-0.5B,FFT,Tesla T4,fp16 mixed,3.93,10.2,494032768.0,494032768,100.0
+Qwen2.5-0.5B,LoRA,Tesla T4,fp16 mixed,3.57,6.45,8798208.0,494032768,1.781
+Qwen2.5-1.5B,FFT,NVIDIA RTX A6000,bf16 mixed,1.96,33.17,1543714304.0,1543714304,100.0
+Qwen2.5-1.5B,LoRA,NVIDIA RTX A6000,bf16 mixed,1.65,26.77,18464768.0,1543714304,1.196
