@@ -251,9 +251,17 @@ def main():
     ap.add_argument("--save-weights", default=None, help="directory to save re-trained Step-3 weights")
     ap.add_argument("--load-weights", default=None, help="directory with saved Step-3 weights (skip training)")
     ap.add_argument("--step0-only", action="store_true")
+    ap.add_argument("--match-t4", action="store_true",
+                    help="train with the Assignment 4 Colab-T4 recipe (fp16 mixed, batch 2 x 16) on any GPU")
     ap.add_argument("--max-items", type=int, default=None, help="debug only: evaluate the first N items")
     a = ap.parse_args()
 
+    if a.match_t4 and torch.cuda.is_available():
+        # forgetting.py would pick bf16 and batch 8 x 4 on a >30 GB / Ampere GPU; the 0.5B
+        # Assignment 4 runs used fp16 mixed precision and batch 2 x 16 on a T4.
+        F.precision = lambda: (False, True)
+        F.per_device_batch = lambda: (2, 16)
+        F.log("match-t4: fp16 mixed precision, per-device batch 2 x 16")
     os.makedirs(os.path.join(a.out, "items"), exist_ok=True)
     os.makedirs(os.path.join(a.out, "repro"), exist_ok=True)
     F.save_environment(a.out)
@@ -329,7 +337,9 @@ def main():
             F.log(f"  reproduction of logged Step 3: {rep}")
             with open(os.path.join(a.out, "repro", f"{ck}.json"), "w") as f:
                 json.dump({"summary": summ, "vs_a4_log": rep, "steps_1_2_vs_log": step_rep,
-                           "retrained": trained, "env": F.environment()}, f, indent=2)
+                           "retrained": trained, "match_t4": a.match_t4,
+                           "precision": "fp16" if F.precision()[1] else ("bf16" if F.precision()[0] else "fp32"),
+                           "batch_x_accum": list(F.per_device_batch()), "env": F.environment()}, f, indent=2)
             if a.save_weights and trained:
                 d = os.path.join(a.save_weights, ck)
                 model.save_pretrained(d, safe_serialization=True)

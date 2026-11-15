@@ -31,7 +31,7 @@ python protocol/protocol_analysis.py --res results_protocol --out report_protoco
 python protocol/protocol_analysis.py --res results_protocol --verify letter_shuf FFT 42 All
 ```
 
-Or open `run_protocol_colab.ipynb`. Add `--save-weights DIR` to keep the Step-3 weights and
+On a non-T4 GPU (e.g. RunPod) add `--match-t4` so Step 3 is trained with the Assignment 4 recipe (fp16 mixed, batch 2 × 16). Or open `run_protocol_colab.ipynb`. Add `--save-weights DIR` to keep the Step-3 weights and
 `--load-weights DIR` to re-score saved weights without training.
 
 ## Outputs
