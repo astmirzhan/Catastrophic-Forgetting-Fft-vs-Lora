@@ -1,0 +1,46 @@
+{
+  "summary": {
+    "letter_orig": 52.0,
+    "letter_shuf": 50.96000000000001,
+    "full_answer": 38.9
+  },
+  "vs_a4_log": {
+    "acc_now": 52.0,
+    "acc_logged": 51.7,
+    "diff_pp": 0.3,
+    "same_prediction_pct": 97.8,
+    "max_abs_letter_mass_diff": 0.079774
+  },
+  "steps_1_2_vs_log": {
+    "1": {
+      "acc_now": 53.0,
+      "acc_logged": 52.8,
+      "diff_pp": 0.2,
+      "same_prediction_pct": 99.1,
+      "max_abs_letter_mass_diff": 0.014895
+    },
+    "2": {
+      "acc_now": 52.0,
+      "acc_logged": 52.4,
+      "diff_pp": -0.4,
+      "same_prediction_pct": 98.3,
+      "max_abs_letter_mass_diff": 0.008606
+    }
+  },
+  "retrained": true,
+  "match_t4": true,
+  "precision": "fp16",
+  "batch_x_accum": [
+    2,
+    16
+  ],
+  "env": {
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "transformers": "5.21.0",
+    "peft": "0.21.2",
+    "datasets": "5.1.0",
+    "gpu": "NVIDIA A40",
+    "gpu_memory_gb": 47.7
+  }
+}

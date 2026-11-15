@@ -1,0 +1,396 @@
+nohup: ignoring input
+[19:28:39] match-t4: fp16 mixed precision, per-device batch 2 x 16
+[19:28:39] items 1000 | shuffled prompts 5000 | env {'python': '3.12.3', 'torch': '2.8.0+cu128', 'transformers': '5.21.0', 'peft': '0.21.2', 'datasets': '5.1.0', 'gpu': 'NVIDIA A40', 'gpu_memory_gb': 47.7}
+[19:28:40] skip qwen0.5b_step0 (already done)
+[19:28:40] === qwen0.5b_main_FFT_s42_step3 ===
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Generating train split:   0%|          | 0/7473 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 7473/7473 [00:00<00:00, 250131.94 examples/s]
+Generating test split:   0%|          | 0/1319 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1319/1319 [00:00<00:00, 148278.93 examples/s]
+Map:   0%|          | 0/2200 [00:00<?, ? examples/s]Map:  49%|████▉     | 1082/2200 [00:00<00:00, 10604.32 examples/s]Map: 100%|██████████| 2200/2200 [00:00<00:00, 12195.02 examples/s]
+Filter:   0%|          | 0/2200 [00:00<?, ? examples/s]Filter: 100%|██████████| 2200/2200 [00:00<00:00, 276594.49 examples/s]
+Map:   0%|          | 0/2200 [00:00<?, ? examples/s]Map:   5%|▌         | 114/2200 [00:00<00:01, 1121.58 examples/s]Map:  11%|█         | 245/2200 [00:00<00:01, 1226.20 examples/s]Map:  17%|█▋        | 373/2200 [00:00<00:01, 1246.48 examples/s]Map:  26%|██▌       | 565/2200 [00:00<00:01, 1258.43 examples/s]Map:  32%|███▏      | 700/2200 [00:00<00:01, 1285.34 examples/s]Map:  41%|████      | 893/2200 [00:00<00:01, 1284.05 examples/s]Map:  48%|████▊     | 1061/2200 [00:00<00:01, 953.99 examples/s]Map:  53%|█████▎    | 1175/2200 [00:01<00:01, 990.88 examples/s]Map:  59%|█████▉    | 1299/2200 [00:01<00:00, 1046.28 examples/s]Map:  65%|██████▍   | 1422/2200 [00:01<00:00, 1089.85 examples/s]Map:  70%|███████   | 1546/2200 [00:01<00:00, 1125.68 examples/s]Map:  78%|███████▊  | 1722/2200 [00:01<00:00, 1139.70 examples/s]Map:  84%|████████▍ | 1843/2200 [00:01<00:00, 1154.73 examples/s]Map:  90%|████████▉ | 1976/2200 [00:01<00:00, 1196.33 examples/s]Map:  96%|█████████▋| 2121/2200 [00:01<00:00, 1090.65 examples/s]Map: 100%|██████████| 2200/2200 [00:01<00:00, 1118.57 examples/s]
+Filter:   0%|          | 0/2200 [00:00<?, ? examples/s]Filter: 100%|██████████| 2200/2200 [00:00<00:00, 31605.57 examples/s]
+Generating train split:   0%|          | 0/20022 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 20022/20022 [00:00<00:00, 114310.70 examples/s]Generating train split: 100%|██████████| 20022/20022 [00:00<00:00, 114015.05 examples/s]
+Map:   0%|          | 0/2200 [00:00<?, ? examples/s]Map:  60%|██████    | 1326/2200 [00:00<00:00, 13161.08 examples/s]Map: 100%|██████████| 2200/2200 [00:00<00:00, 12990.89 examples/s]
+Filter:   0%|          | 0/2200 [00:00<?, ? examples/s]Filter: 100%|██████████| 2200/2200 [00:00<00:00, 336560.12 examples/s]
+Map:   0%|          | 0/2200 [00:00<?, ? examples/s]Map:   9%|▉         | 196/2200 [00:00<00:01, 1935.58 examples/s]Map:  18%|█▊        | 393/2200 [00:00<00:00, 1954.40 examples/s]Map:  27%|██▋       | 589/2200 [00:00<00:00, 1953.41 examples/s]Map:  36%|███▌      | 793/2200 [00:00<00:00, 1983.09 examples/s]Map:  45%|████▌     | 1000/2200 [00:00<00:00, 1685.53 examples/s]Map:  55%|█████▌    | 1210/2200 [00:00<00:00, 1809.95 examples/s]Map:  64%|██████▍   | 1417/2200 [00:00<00:00, 1884.32 examples/s]Map:  77%|███████▋  | 1695/2200 [00:00<00:00, 1861.38 examples/s]Map:  86%|████████▋ | 1902/2200 [00:01<00:00, 1916.63 examples/s]Map:  96%|█████████▌| 2104/2200 [00:01<00:00, 1861.24 examples/s]Map: 100%|██████████| 2200/2200 [00:01<00:00, 1867.95 examples/s]
+Filter:   0%|          | 0/2200 [00:00<?, ? examples/s]Filter: 100%|██████████| 2200/2200 [00:00<00:00, 73133.47 examples/s]
+Generating train split:   0%|          | 0/11679 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 11679/11679 [00:00<00:00, 218390.81 examples/s]
+Generating validation split:   0%|          | 0/1000 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 1000/1000 [00:00<00:00, 96837.07 examples/s]
+Generating test split:   0%|          | 0/1000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1000/1000 [00:00<00:00, 86437.72 examples/s]
+Map:   0%|          | 0/2200 [00:00<?, ? examples/s]Map:  40%|████      | 885/2200 [00:00<00:00, 8651.40 examples/s]Map:  90%|████████▉ | 1971/2200 [00:00<00:00, 9934.45 examples/s]Map: 100%|██████████| 2200/2200 [00:00<00:00, 9687.21 examples/s]
+Filter:   0%|          | 0/2200 [00:00<?, ? examples/s]Filter: 100%|██████████| 2200/2200 [00:00<00:00, 326994.89 examples/s]
+Map:   0%|          | 0/2200 [00:00<?, ? examples/s]Map:   5%|▌         | 112/2200 [00:00<00:01, 1104.50 examples/s]Map:  11%|█         | 241/2200 [00:00<00:01, 1202.36 examples/s]Map:  17%|█▋        | 368/2200 [00:00<00:01, 1226.29 examples/s]Map:  25%|██▌       | 556/2200 [00:00<00:01, 1233.12 examples/s]Map:  32%|███▏      | 701/2200 [00:00<00:01, 1298.30 examples/s]Map:  38%|███▊      | 838/2200 [00:00<00:01, 1315.58 examples/s]Map:  44%|████▍     | 977/2200 [00:00<00:00, 1335.06 examples/s]Map:  52%|█████▏    | 1144/2200 [00:00<00:00, 1150.49 examples/s]Map:  58%|█████▊    | 1282/2200 [00:01<00:00, 1207.04 examples/s]Map:  64%|██████▍   | 1416/2200 [00:01<00:00, 1241.34 examples/s]Map:  70%|███████   | 1549/2200 [00:01<00:00, 1264.24 examples/s]Map:  77%|███████▋  | 1696/2200 [00:01<00:00, 1319.95 examples/s]Map:  84%|████████▍ | 1847/2200 [00:01<00:00, 1371.82 examples/s]Map:  91%|█████████ | 2000/2200 [00:01<00:00, 1395.71 examples/s]Map:  99%|█████████▊| 2169/2200 [00:01<00:00, 1479.03 examples/s]Map: 100%|██████████| 2200/2200 [00:01<00:00, 1313.29 examples/s]
+Filter:   0%|          | 0/2200 [00:00<?, ? examples/s]Filter: 100%|██████████| 2200/2200 [00:00<00:00, 77723.98 examples/s]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8008.40it/s]
+{'loss': '0.5527', 'grad_norm': '9.434', 'learning_rate': '2e-05', 'epoch': '0.128'}
+{'loss': '0.4699', 'grad_norm': '15.44', 'learning_rate': '1.979e-05', 'epoch': '0.256'}
+{'loss': '0.4575', 'grad_norm': '6.196', 'learning_rate': '1.916e-05', 'epoch': '0.384'}
+{'loss': '0.4444', 'grad_norm': '4.285', 'learning_rate': '1.815e-05', 'epoch': '0.512'}
+{'loss': '0.4697', 'grad_norm': '4.018', 'learning_rate': '1.679e-05', 'epoch': '0.64'}
+{'loss': '0.4408', 'grad_norm': '3.649', 'learning_rate': '1.515e-05', 'epoch': '0.768'}
+{'loss': '0.484', 'grad_norm': '3.928', 'learning_rate': '1.329e-05', 'epoch': '0.896'}
+{'loss': '0.4803', 'grad_norm': '7.406', 'learning_rate': '1.128e-05', 'epoch': '1'}
+{'loss': '0.2654', 'grad_norm': '3.449', 'learning_rate': '9.228e-06', 'epoch': '1.128'}
+{'loss': '0.2665', 'grad_norm': '4.848', 'learning_rate': '7.205e-06', 'epoch': '1.256'}
+{'loss': '0.2763', 'grad_norm': '4.463', 'learning_rate': '5.3e-06', 'epoch': '1.384'}
+{'loss': '0.2476', 'grad_norm': '3.664', 'learning_rate': '3.594e-06', 'epoch': '1.512'}
+{'loss': '0.2461', 'grad_norm': '3.824', 'learning_rate': '2.159e-06', 'epoch': '1.64'}
+{'loss': '0.2555', 'grad_norm': '3.185', 'learning_rate': '1.055e-06', 'epoch': '1.768'}
+{'loss': '0.2511', 'grad_norm': '3.619', 'learning_rate': '3.297e-07', 'epoch': '1.896'}
+{'loss': '0.2409', 'grad_norm': '7.201', 'learning_rate': '1.326e-08', 'epoch': '2'}
+{'train_runtime': '159', 'train_samples_per_second': '12.57', 'train_steps_per_second': '0.402', 'train_loss': '0.3655', 'epoch': '2'}
+[19:31:55]   step 1 GSM8K trained in 159s; vs log: {'acc_now': 51.7, 'acc_logged': 51.9, 'diff_pp': -0.2, 'same_prediction_pct': 99.5, 'max_abs_letter_mass_diff': 0.019455}
+{'loss': '0.6613', 'grad_norm': '7.215', 'learning_rate': '2e-05', 'epoch': '0.128'}
+{'loss': '0.6034', 'grad_norm': '5.649', 'learning_rate': '1.979e-05', 'epoch': '0.256'}
+{'loss': '0.6023', 'grad_norm': '8.394', 'learning_rate': '1.916e-05', 'epoch': '0.384'}
+{'loss': '0.6778', 'grad_norm': '6.277', 'learning_rate': '1.815e-05', 'epoch': '0.512'}
+{'loss': '0.6685', 'grad_norm': '6.204', 'learning_rate': '1.679e-05', 'epoch': '0.64'}
+{'loss': '0.618', 'grad_norm': '5.441', 'learning_rate': '1.515e-05', 'epoch': '0.768'}
+{'loss': '0.6738', 'grad_norm': '6.465', 'learning_rate': '1.329e-05', 'epoch': '0.896'}
+{'loss': '0.6576', 'grad_norm': '12.24', 'learning_rate': '1.128e-05', 'epoch': '1'}
+{'loss': '0.3357', 'grad_norm': '5.098', 'learning_rate': '9.228e-06', 'epoch': '1.128'}
+{'loss': '0.3571', 'grad_norm': '4.694', 'learning_rate': '7.205e-06', 'epoch': '1.256'}
+{'loss': '0.2864', 'grad_norm': '4.064', 'learning_rate': '5.3e-06', 'epoch': '1.384'}
+{'loss': '0.3356', 'grad_norm': '5.525', 'learning_rate': '3.594e-06', 'epoch': '1.512'}
+{'loss': '0.3171', 'grad_norm': '4.172', 'learning_rate': '2.159e-06', 'epoch': '1.64'}
+{'loss': '0.3119', 'grad_norm': '6.17', 'learning_rate': '1.055e-06', 'epoch': '1.768'}
+{'loss': '0.2958', 'grad_norm': '5.663', 'learning_rate': '3.297e-07', 'epoch': '1.896'}
+{'loss': '0.3434', 'grad_norm': '12.9', 'learning_rate': '1.326e-08', 'epoch': '2'}
+{'train_runtime': '152.9', 'train_samples_per_second': '13.08', 'train_steps_per_second': '0.419', 'train_loss': '0.4841', 'epoch': '2'}
+[19:34:45]   step 2 CodeAlpaca trained in 153s; vs log: {'acc_now': 52.5, 'acc_logged': 52.5, 'diff_pp': 0.0, 'same_prediction_pct': 99.6, 'max_abs_letter_mass_diff': 0.01171}
+{'loss': '0.9951', 'grad_norm': '26.58', 'learning_rate': '2e-05', 'epoch': '0.128'}
+{'loss': '0.5968', 'grad_norm': 'inf', 'learning_rate': '1.979e-05', 'epoch': '0.256'}
+{'loss': '0.6248', 'grad_norm': '23.58', 'learning_rate': '1.916e-05', 'epoch': '0.384'}
+{'loss': '0.6358', 'grad_norm': '26.37', 'learning_rate': '1.815e-05', 'epoch': '0.512'}
+{'loss': '0.5194', 'grad_norm': '21.33', 'learning_rate': '1.679e-05', 'epoch': '0.64'}
+{'loss': '0.5101', 'grad_norm': '25.15', 'learning_rate': '1.515e-05', 'epoch': '0.768'}
+{'loss': '0.6553', 'grad_norm': '26.19', 'learning_rate': '1.329e-05', 'epoch': '0.896'}
+{'loss': '0.6', 'grad_norm': '95.16', 'learning_rate': '1.128e-05', 'epoch': '1'}
+{'loss': '0.09294', 'grad_norm': '6.659', 'learning_rate': '9.228e-06', 'epoch': '1.128'}
+{'loss': '0.1468', 'grad_norm': '5.229', 'learning_rate': '7.205e-06', 'epoch': '1.256'}
+{'loss': '0.1837', 'grad_norm': '10.8', 'learning_rate': '5.3e-06', 'epoch': '1.384'}
+{'loss': '0.116', 'grad_norm': '2.536', 'learning_rate': '3.594e-06', 'epoch': '1.512'}
+{'loss': '0.09741', 'grad_norm': '8.55', 'learning_rate': '2.159e-06', 'epoch': '1.64'}
+{'loss': '0.1929', 'grad_norm': '12.49', 'learning_rate': '1.055e-06', 'epoch': '1.768'}
+{'loss': '0.1407', 'grad_norm': '14.4', 'learning_rate': '3.297e-07', 'epoch': '1.896'}
+{'loss': '0.1332', 'grad_norm': '58.32', 'learning_rate': '1.326e-08', 'epoch': '2'}
+{'train_runtime': '146.7', 'train_samples_per_second': '13.64', 'train_steps_per_second': '0.436', 'train_loss': '0.3901', 'epoch': '2'}
+[19:37:17]   step 3 SciQ trained in 147s
+[19:37:29]   letter_orig  33.40%  (12s)
+[19:38:30]   letter_shuf  31.74% (mean of 5)  (61s)
+[19:39:11]   full_answer  32.80%  (40s)
+[19:39:11]   reproduction of logged Step 3: {'acc_now': 33.4, 'acc_logged': 33.4, 'diff_pp': 0.0, 'same_prediction_pct': 97.3, 'max_abs_letter_mass_diff': 0.10507}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.79s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.79s/it]
+[19:39:12]   weights saved to /workspace/ckpt_step3/qwen0.5b_main_FFT_s42_step3
+[19:39:13] === qwen0.5b_main_LoRA_s42_step3 ===
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 6297.95it/s]
+{'loss': '0.5726', 'grad_norm': '1.046', 'learning_rate': '0.0002', 'epoch': '0.128'}
+{'loss': '0.4606', 'grad_norm': '0.7592', 'learning_rate': '0.0001979', 'epoch': '0.256'}
+{'loss': '0.4272', 'grad_norm': '0.5706', 'learning_rate': '0.0001916', 'epoch': '0.384'}
+{'loss': '0.4147', 'grad_norm': '0.4976', 'learning_rate': '0.0001815', 'epoch': '0.512'}
+{'loss': '0.4517', 'grad_norm': '0.4813', 'learning_rate': '0.0001679', 'epoch': '0.64'}
+{'loss': '0.4177', 'grad_norm': '0.4141', 'learning_rate': '0.0001515', 'epoch': '0.768'}
+{'loss': '0.4579', 'grad_norm': '0.4858', 'learning_rate': '0.0001329', 'epoch': '0.896'}
+{'loss': '0.4538', 'grad_norm': '0.8793', 'learning_rate': '0.0001128', 'epoch': '1'}
+{'loss': '0.3458', 'grad_norm': '0.4176', 'learning_rate': '9.228e-05', 'epoch': '1.128'}
+{'loss': '0.3662', 'grad_norm': '0.4632', 'learning_rate': '7.205e-05', 'epoch': '1.256'}
+{'loss': '0.3798', 'grad_norm': '0.487', 'learning_rate': '5.3e-05', 'epoch': '1.384'}
+{'loss': '0.361', 'grad_norm': '0.4994', 'learning_rate': '3.594e-05', 'epoch': '1.512'}
+{'loss': '0.3536', 'grad_norm': '0.491', 'learning_rate': '2.159e-05', 'epoch': '1.64'}
+{'loss': '0.369', 'grad_norm': '0.4786', 'learning_rate': '1.055e-05', 'epoch': '1.768'}
+{'loss': '0.3612', 'grad_norm': '0.4704', 'learning_rate': '3.297e-06', 'epoch': '1.896'}
+{'loss': '0.3406', 'grad_norm': '0.9334', 'learning_rate': '1.326e-07', 'epoch': '2'}
+{'train_runtime': '148.8', 'train_samples_per_second': '13.44', 'train_steps_per_second': '0.43', 'train_loss': '0.4084', 'epoch': '2'}
+[19:42:03]   step 1 GSM8K trained in 149s; vs log: {'acc_now': 53.0, 'acc_logged': 52.8, 'diff_pp': 0.2, 'same_prediction_pct': 99.1, 'max_abs_letter_mass_diff': 0.014895}
+{'loss': '0.6493', 'grad_norm': '0.8106', 'learning_rate': '0.0002', 'epoch': '0.128'}
+{'loss': '0.5703', 'grad_norm': '0.6505', 'learning_rate': '0.0001979', 'epoch': '0.256'}
+{'loss': '0.5602', 'grad_norm': '0.6417', 'learning_rate': '0.0001916', 'epoch': '0.384'}
+{'loss': '0.6148', 'grad_norm': '0.6695', 'learning_rate': '0.0001815', 'epoch': '0.512'}
+{'loss': '0.6172', 'grad_norm': '0.6553', 'learning_rate': '0.0001679', 'epoch': '0.64'}
+{'loss': '0.5649', 'grad_norm': '0.604', 'learning_rate': '0.0001515', 'epoch': '0.768'}
+{'loss': '0.6204', 'grad_norm': '0.7413', 'learning_rate': '0.0001329', 'epoch': '0.896'}
+{'loss': '0.5992', 'grad_norm': '1.175', 'learning_rate': '0.0001128', 'epoch': '1'}
+{'loss': '0.457', 'grad_norm': '0.6363', 'learning_rate': '9.228e-05', 'epoch': '1.128'}
+{'loss': '0.5477', 'grad_norm': '0.5324', 'learning_rate': '7.205e-05', 'epoch': '1.256'}
+{'loss': '0.4075', 'grad_norm': '0.4919', 'learning_rate': '5.3e-05', 'epoch': '1.384'}
+{'loss': '0.4871', 'grad_norm': '0.5549', 'learning_rate': '3.594e-05', 'epoch': '1.512'}
+{'loss': '0.5032', 'grad_norm': '0.4894', 'learning_rate': '2.159e-05', 'epoch': '1.64'}
+{'loss': '0.4615', 'grad_norm': '0.7345', 'learning_rate': '1.055e-05', 'epoch': '1.768'}
+{'loss': '0.4856', 'grad_norm': '0.5368', 'learning_rate': '3.297e-06', 'epoch': '1.896'}
+{'loss': '0.4235', 'grad_norm': '1.367', 'learning_rate': '1.326e-07', 'epoch': '2'}
+{'train_runtime': '155', 'train_samples_per_second': '12.9', 'train_steps_per_second': '0.413', 'train_loss': '0.5356', 'epoch': '2'}
+[19:44:56]   step 2 CodeAlpaca trained in 155s; vs log: {'acc_now': 52.0, 'acc_logged': 52.4, 'diff_pp': -0.4, 'same_prediction_pct': 98.3, 'max_abs_letter_mass_diff': 0.008606}
+{'loss': '0.8359', 'grad_norm': '3.028', 'learning_rate': '0.0002', 'epoch': '0.128'}
+{'loss': '0.568', 'grad_norm': '4.649', 'learning_rate': '0.0001979', 'epoch': '0.256'}
+{'loss': '0.5737', 'grad_norm': '2.679', 'learning_rate': '0.0001916', 'epoch': '0.384'}
+{'loss': '0.5712', 'grad_norm': '3.167', 'learning_rate': '0.0001815', 'epoch': '0.512'}
+{'loss': '0.5026', 'grad_norm': '3.247', 'learning_rate': '0.0001679', 'epoch': '0.64'}
+{'loss': '0.4399', 'grad_norm': '3.254', 'learning_rate': '0.0001515', 'epoch': '0.768'}
+{'loss': '0.5451', 'grad_norm': '3.426', 'learning_rate': '0.0001329', 'epoch': '0.896'}
+{'loss': '0.4807', 'grad_norm': '4.119', 'learning_rate': '0.0001128', 'epoch': '1'}
+{'loss': '0.1869', 'grad_norm': '1.373', 'learning_rate': '9.228e-05', 'epoch': '1.128'}
+{'loss': '0.2464', 'grad_norm': '1.403', 'learning_rate': '7.205e-05', 'epoch': '1.256'}
+{'loss': '0.266', 'grad_norm': '2.366', 'learning_rate': '5.3e-05', 'epoch': '1.384'}
+{'loss': '0.2097', 'grad_norm': '1.425', 'learning_rate': '3.594e-05', 'epoch': '1.512'}
+{'loss': '0.2871', 'grad_norm': '2.198', 'learning_rate': '2.159e-05', 'epoch': '1.64'}
+{'loss': '0.2207', 'grad_norm': '2.038', 'learning_rate': '1.055e-05', 'epoch': '1.768'}
+{'loss': '0.1907', 'grad_norm': '1.888', 'learning_rate': '3.297e-06', 'epoch': '1.896'}
+{'loss': '0.1778', 'grad_norm': '3.1', 'learning_rate': '1.326e-07', 'epoch': '2'}
+{'train_runtime': '144.7', 'train_samples_per_second': '13.82', 'train_steps_per_second': '0.442', 'train_loss': '0.3939', 'epoch': '2'}
+[19:47:28]   step 3 SciQ trained in 145s
+[19:47:40]   letter_orig  52.00%  (12s)
+[19:48:41]   letter_shuf  50.96% (mean of 5)  (61s)
+[19:49:21]   full_answer  38.90%  (40s)
+[19:49:21]   reproduction of logged Step 3: {'acc_now': 52.0, 'acc_logged': 51.7, 'diff_pp': 0.3, 'same_prediction_pct': 97.8, 'max_abs_letter_mass_diff': 0.079774}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+[19:49:22]   weights saved to /workspace/ckpt_step3/qwen0.5b_main_LoRA_s42_step3
+[19:49:23] === qwen0.5b_main_FFT_s43_step3 ===
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9428.69it/s]
+{'loss': '0.5609', 'grad_norm': '8.808', 'learning_rate': '2e-05', 'epoch': '0.128'}
+{'loss': '0.471', 'grad_norm': '5.124', 'learning_rate': '1.979e-05', 'epoch': '0.256'}
+{'loss': '0.4913', 'grad_norm': '6.825', 'learning_rate': '1.916e-05', 'epoch': '0.384'}
+{'loss': '0.4607', 'grad_norm': '4.85', 'learning_rate': '1.815e-05', 'epoch': '0.512'}
+{'loss': '0.4478', 'grad_norm': '4.163', 'learning_rate': '1.679e-05', 'epoch': '0.64'}
+{'loss': '0.4713', 'grad_norm': '4.142', 'learning_rate': '1.515e-05', 'epoch': '0.768'}
+{'loss': '0.4574', 'grad_norm': '4.614', 'learning_rate': '1.329e-05', 'epoch': '0.896'}
+{'loss': '0.4268', 'grad_norm': '8.302', 'learning_rate': '1.128e-05', 'epoch': '1'}
+{'loss': '0.2744', 'grad_norm': '3.187', 'learning_rate': '9.228e-06', 'epoch': '1.128'}
+{'loss': '0.2531', 'grad_norm': '4.86', 'learning_rate': '7.205e-06', 'epoch': '1.256'}
+{'loss': '0.2631', 'grad_norm': '4.124', 'learning_rate': '5.3e-06', 'epoch': '1.384'}
+{'loss': '0.2353', 'grad_norm': '3.367', 'learning_rate': '3.594e-06', 'epoch': '1.512'}
+{'loss': '0.2423', 'grad_norm': '3.309', 'learning_rate': '2.159e-06', 'epoch': '1.64'}
+{'loss': '0.2501', 'grad_norm': '3.552', 'learning_rate': '1.055e-06', 'epoch': '1.768'}
+{'loss': '0.2507', 'grad_norm': '3.718', 'learning_rate': '3.297e-07', 'epoch': '1.896'}
+{'loss': '0.2378', 'grad_norm': '8.298', 'learning_rate': '1.326e-08', 'epoch': '2'}
+{'train_runtime': '148.5', 'train_samples_per_second': '13.47', 'train_steps_per_second': '0.431', 'train_loss': '0.3621', 'epoch': '2'}
+[19:52:10]   step 1 GSM8K trained in 149s; vs log: {'acc_now': 50.5, 'acc_logged': 50.7, 'diff_pp': -0.2, 'same_prediction_pct': 99.2, 'max_abs_letter_mass_diff': 0.014659}
+{'loss': '0.6223', 'grad_norm': '7.969', 'learning_rate': '2e-05', 'epoch': '0.128'}
+{'loss': '0.7257', 'grad_norm': '6.614', 'learning_rate': '1.979e-05', 'epoch': '0.256'}
+{'loss': '0.5605', 'grad_norm': '5.135', 'learning_rate': '1.916e-05', 'epoch': '0.384'}
+{'loss': '0.6628', 'grad_norm': '12.85', 'learning_rate': '1.815e-05', 'epoch': '0.512'}
+{'loss': '0.691', 'grad_norm': '5.162', 'learning_rate': '1.679e-05', 'epoch': '0.64'}
+{'loss': '0.6192', 'grad_norm': '6.957', 'learning_rate': '1.515e-05', 'epoch': '0.768'}
+{'loss': '0.6596', 'grad_norm': '5.78', 'learning_rate': '1.329e-05', 'epoch': '0.896'}
+{'loss': '0.5901', 'grad_norm': '15.59', 'learning_rate': '1.128e-05', 'epoch': '1'}
+{'loss': '0.3667', 'grad_norm': '4.116', 'learning_rate': '9.228e-06', 'epoch': '1.128'}
+{'loss': '0.3528', 'grad_norm': '4.218', 'learning_rate': '7.205e-06', 'epoch': '1.256'}
+{'loss': '0.3264', 'grad_norm': '5.725', 'learning_rate': '5.3e-06', 'epoch': '1.384'}
+{'loss': '0.3226', 'grad_norm': '4.918', 'learning_rate': '3.594e-06', 'epoch': '1.512'}
+{'loss': '0.2821', 'grad_norm': '4.552', 'learning_rate': '2.159e-06', 'epoch': '1.64'}
+{'loss': '0.3308', 'grad_norm': '4.918', 'learning_rate': '1.055e-06', 'epoch': '1.768'}
+{'loss': '0.3121', 'grad_norm': '4.757', 'learning_rate': '3.297e-07', 'epoch': '1.896'}
+{'loss': '0.2633', 'grad_norm': '8.298', 'learning_rate': '1.326e-08', 'epoch': '2'}
+{'train_runtime': '155.5', 'train_samples_per_second': '12.86', 'train_steps_per_second': '0.412', 'train_loss': '0.4805', 'epoch': '2'}
+[19:55:03]   step 2 CodeAlpaca trained in 156s; vs log: {'acc_now': 51.4, 'acc_logged': 51.3, 'diff_pp': 0.1, 'same_prediction_pct': 99.2, 'max_abs_letter_mass_diff': 0.011838}
+{'loss': '1.143', 'grad_norm': '31.21', 'learning_rate': '2e-05', 'epoch': '0.128'}
+{'loss': '0.6348', 'grad_norm': 'inf', 'learning_rate': '1.979e-05', 'epoch': '0.256'}
+{'loss': '0.6659', 'grad_norm': '26.17', 'learning_rate': '1.916e-05', 'epoch': '0.384'}
+{'loss': '0.6046', 'grad_norm': '24.85', 'learning_rate': '1.815e-05', 'epoch': '0.512'}
+{'loss': '0.6968', 'grad_norm': '20.1', 'learning_rate': '1.679e-05', 'epoch': '0.64'}
+{'loss': '0.6168', 'grad_norm': '27.09', 'learning_rate': '1.515e-05', 'epoch': '0.768'}
+{'loss': '0.4554', 'grad_norm': '20.02', 'learning_rate': '1.329e-05', 'epoch': '0.896'}
+{'loss': '0.5532', 'grad_norm': 'inf', 'learning_rate': '1.128e-05', 'epoch': '1'}
+{'loss': '0.1868', 'grad_norm': '18', 'learning_rate': '9.228e-06', 'epoch': '1.128'}
+{'loss': '0.1775', 'grad_norm': '13.59', 'learning_rate': '7.205e-06', 'epoch': '1.256'}
+{'loss': '0.1064', 'grad_norm': '6.227', 'learning_rate': '5.3e-06', 'epoch': '1.384'}
+{'loss': '0.0804', 'grad_norm': '6.878', 'learning_rate': '3.594e-06', 'epoch': '1.512'}
+{'loss': '0.09553', 'grad_norm': '4.345', 'learning_rate': '2.159e-06', 'epoch': '1.64'}
+{'loss': '0.1449', 'grad_norm': '17.32', 'learning_rate': '1.055e-06', 'epoch': '1.768'}
+{'loss': '0.1461', 'grad_norm': '10.61', 'learning_rate': '3.297e-07', 'epoch': '1.896'}
+{'loss': '0.08917', 'grad_norm': '4.441', 'learning_rate': '1.326e-08', 'epoch': '2'}
+{'train_runtime': '156.7', 'train_samples_per_second': '12.76', 'train_steps_per_second': '0.408', 'train_loss': '0.3998', 'epoch': '2'}
+[19:57:45]   step 3 SciQ trained in 157s
+[19:57:57]   letter_orig  44.30%  (12s)
+[19:58:59]   letter_shuf  41.68% (mean of 5)  (61s)
+[19:59:39]   full_answer  36.60%  (40s)
+[19:59:39]   reproduction of logged Step 3: {'acc_now': 44.3, 'acc_logged': 44.3, 'diff_pp': 0.0, 'same_prediction_pct': 98.8, 'max_abs_letter_mass_diff': 0.052154}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.19s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.19s/it]
+[19:59:40]   weights saved to /workspace/ckpt_step3/qwen0.5b_main_FFT_s43_step3
+[19:59:40] === qwen0.5b_main_LoRA_s43_step3 ===
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9506.66it/s]
+{'loss': '0.5774', 'grad_norm': '1.012', 'learning_rate': '0.0002', 'epoch': '0.128'}
+{'loss': '0.4632', 'grad_norm': '0.7362', 'learning_rate': '0.0001979', 'epoch': '0.256'}
+{'loss': '0.4729', 'grad_norm': '0.6197', 'learning_rate': '0.0001916', 'epoch': '0.384'}
+{'loss': '0.4381', 'grad_norm': '0.5289', 'learning_rate': '0.0001815', 'epoch': '0.512'}
+{'loss': '0.4195', 'grad_norm': '0.4738', 'learning_rate': '0.0001679', 'epoch': '0.64'}
+{'loss': '0.4447', 'grad_norm': '0.4945', 'learning_rate': '0.0001515', 'epoch': '0.768'}
+{'loss': '0.4294', 'grad_norm': '0.4881', 'learning_rate': '0.0001329', 'epoch': '0.896'}
+{'loss': '0.4074', 'grad_norm': '0.9509', 'learning_rate': '0.0001128', 'epoch': '1'}
+{'loss': '0.3726', 'grad_norm': '0.4512', 'learning_rate': '9.228e-05', 'epoch': '1.128'}
+{'loss': '0.3624', 'grad_norm': '0.465', 'learning_rate': '7.205e-05', 'epoch': '1.256'}
+{'loss': '0.3715', 'grad_norm': '0.531', 'learning_rate': '5.3e-05', 'epoch': '1.384'}
+{'loss': '0.3472', 'grad_norm': '0.4638', 'learning_rate': '3.594e-05', 'epoch': '1.512'}
+{'loss': '0.3444', 'grad_norm': '0.4264', 'learning_rate': '2.159e-05', 'epoch': '1.64'}
+{'loss': '0.3643', 'grad_norm': '0.4605', 'learning_rate': '1.055e-05', 'epoch': '1.768'}
+{'loss': '0.3588', 'grad_norm': '0.5246', 'learning_rate': '3.297e-06', 'epoch': '1.896'}
+{'loss': '0.3603', 'grad_norm': '1.288', 'learning_rate': '1.326e-07', 'epoch': '2'}
+{'train_runtime': '147.2', 'train_samples_per_second': '13.59', 'train_steps_per_second': '0.435', 'train_loss': '0.4084', 'epoch': '2'}
+[20:02:28]   step 1 GSM8K trained in 147s; vs log: {'acc_now': 52.9, 'acc_logged': 53.0, 'diff_pp': -0.1, 'same_prediction_pct': 99.1, 'max_abs_letter_mass_diff': 0.004822}
+{'loss': '0.6085', 'grad_norm': '0.875', 'learning_rate': '0.0002', 'epoch': '0.128'}
+{'loss': '0.6962', 'grad_norm': '0.7517', 'learning_rate': '0.0001979', 'epoch': '0.256'}
+{'loss': '0.522', 'grad_norm': '0.6021', 'learning_rate': '0.0001916', 'epoch': '0.384'}
+{'loss': '0.6065', 'grad_norm': '0.6148', 'learning_rate': '0.0001815', 'epoch': '0.512'}
+{'loss': '0.6298', 'grad_norm': '0.5245', 'learning_rate': '0.0001679', 'epoch': '0.64'}
+{'loss': '0.5634', 'grad_norm': '0.7597', 'learning_rate': '0.0001515', 'epoch': '0.768'}
+{'loss': '0.6102', 'grad_norm': '0.5945', 'learning_rate': '0.0001329', 'epoch': '0.896'}
+{'loss': '0.5383', 'grad_norm': '1.706', 'learning_rate': '0.0001128', 'epoch': '1'}
+{'loss': '0.4838', 'grad_norm': '0.4936', 'learning_rate': '9.228e-05', 'epoch': '1.128'}
+{'loss': '0.5167', 'grad_norm': '0.5585', 'learning_rate': '7.205e-05', 'epoch': '1.256'}
+{'loss': '0.4801', 'grad_norm': '0.4959', 'learning_rate': '5.3e-05', 'epoch': '1.384'}
+{'loss': '0.5102', 'grad_norm': '0.5518', 'learning_rate': '3.594e-05', 'epoch': '1.512'}
+{'loss': '0.4379', 'grad_norm': '0.5373', 'learning_rate': '2.159e-05', 'epoch': '1.64'}
+{'loss': '0.4593', 'grad_norm': '0.6068', 'learning_rate': '1.055e-05', 'epoch': '1.768'}
+{'loss': '0.4383', 'grad_norm': '0.6488', 'learning_rate': '3.297e-06', 'epoch': '1.896'}
+{'loss': '0.4231', 'grad_norm': '1.449', 'learning_rate': '1.326e-07', 'epoch': '2'}
+{'train_runtime': '135.7', 'train_samples_per_second': '14.74', 'train_steps_per_second': '0.472', 'train_loss': '0.5328', 'epoch': '2'}
+[20:05:02]   step 2 CodeAlpaca trained in 136s; vs log: {'acc_now': 52.0, 'acc_logged': 52.0, 'diff_pp': 0.0, 'same_prediction_pct': 98.6, 'max_abs_letter_mass_diff': 0.010728}
+{'loss': '0.9034', 'grad_norm': '3.391', 'learning_rate': '0.0002', 'epoch': '0.128'}
+{'loss': '0.6406', 'grad_norm': '3.136', 'learning_rate': '0.0001979', 'epoch': '0.256'}
+{'loss': '0.6168', 'grad_norm': '3.39', 'learning_rate': '0.0001916', 'epoch': '0.384'}
+{'loss': '0.5271', 'grad_norm': '3.382', 'learning_rate': '0.0001815', 'epoch': '0.512'}
+{'loss': '0.6377', 'grad_norm': '3.315', 'learning_rate': '0.0001679', 'epoch': '0.64'}
+{'loss': '0.4989', 'grad_norm': '3.057', 'learning_rate': '0.0001515', 'epoch': '0.768'}
+{'loss': '0.4146', 'grad_norm': '2.722', 'learning_rate': '0.0001329', 'epoch': '0.896'}
+{'loss': '0.4152', 'grad_norm': '3.993', 'learning_rate': '0.0001128', 'epoch': '1'}
+{'loss': '0.2923', 'grad_norm': '2.145', 'learning_rate': '9.228e-05', 'epoch': '1.128'}
+{'loss': '0.2567', 'grad_norm': '2.024', 'learning_rate': '7.205e-05', 'epoch': '1.256'}
+{'loss': '0.2214', 'grad_norm': '1.522', 'learning_rate': '5.3e-05', 'epoch': '1.384'}
+{'loss': '0.161', 'grad_norm': '1.393', 'learning_rate': '3.594e-05', 'epoch': '1.512'}
+{'loss': '0.1764', 'grad_norm': '1.418', 'learning_rate': '2.159e-05', 'epoch': '1.64'}
+{'loss': '0.2173', 'grad_norm': '2.422', 'learning_rate': '1.055e-05', 'epoch': '1.768'}
+{'loss': '0.2293', 'grad_norm': '3.174', 'learning_rate': '3.297e-06', 'epoch': '1.896'}
+{'loss': '0.2434', 'grad_norm': '2.32', 'learning_rate': '1.326e-07', 'epoch': '2'}
+{'train_runtime': '147.7', 'train_samples_per_second': '13.54', 'train_steps_per_second': '0.433', 'train_loss': '0.4033', 'epoch': '2'}
+[20:07:36]   step 3 SciQ trained in 148s
+[20:07:48]   letter_orig  50.30%  (12s)
+[20:08:49]   letter_shuf  50.86% (mean of 5)  (61s)
+[20:09:29]   full_answer  35.10%  (40s)
+[20:09:29]   reproduction of logged Step 3: {'acc_now': 50.3, 'acc_logged': 51.9, 'diff_pp': -1.6, 'same_prediction_pct': 96.9, 'max_abs_letter_mass_diff': 0.150665}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.35s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.35s/it]
+[20:09:31]   weights saved to /workspace/ckpt_step3/qwen0.5b_main_LoRA_s43_step3
+[20:09:31] === qwen0.5b_main_FFT_s44_step3 ===
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 10058.53it/s]
+{'loss': '0.5835', 'grad_norm': '12.19', 'learning_rate': '2e-05', 'epoch': '0.128'}
+{'loss': '0.4688', 'grad_norm': '4.795', 'learning_rate': '1.979e-05', 'epoch': '0.256'}
+{'loss': '0.4835', 'grad_norm': '4.525', 'learning_rate': '1.916e-05', 'epoch': '0.384'}
+{'loss': '0.4513', 'grad_norm': '4.127', 'learning_rate': '1.815e-05', 'epoch': '0.512'}
+{'loss': '0.4459', 'grad_norm': '4.753', 'learning_rate': '1.679e-05', 'epoch': '0.64'}
+{'loss': '0.4623', 'grad_norm': '4.328', 'learning_rate': '1.515e-05', 'epoch': '0.768'}
+{'loss': '0.4481', 'grad_norm': '4.547', 'learning_rate': '1.329e-05', 'epoch': '0.896'}
+{'loss': '0.445', 'grad_norm': '9.077', 'learning_rate': '1.128e-05', 'epoch': '1'}
+{'loss': '0.2806', 'grad_norm': '3.322', 'learning_rate': '9.228e-06', 'epoch': '1.128'}
+{'loss': '0.2617', 'grad_norm': '3.631', 'learning_rate': '7.205e-06', 'epoch': '1.256'}
+{'loss': '0.226', 'grad_norm': '5.07', 'learning_rate': '5.3e-06', 'epoch': '1.384'}
+{'loss': '0.2327', 'grad_norm': '3.689', 'learning_rate': '3.594e-06', 'epoch': '1.512'}
+{'loss': '0.2475', 'grad_norm': '3.864', 'learning_rate': '2.159e-06', 'epoch': '1.64'}
+{'loss': '0.2549', 'grad_norm': '3.672', 'learning_rate': '1.055e-06', 'epoch': '1.768'}
+{'loss': '0.2491', 'grad_norm': '4.419', 'learning_rate': '3.297e-07', 'epoch': '1.896'}
+{'loss': '0.2464', 'grad_norm': '9.015', 'learning_rate': '1.326e-08', 'epoch': '2'}
+{'train_runtime': '146.6', 'train_samples_per_second': '13.65', 'train_steps_per_second': '0.437', 'train_loss': '0.3617', 'epoch': '2'}
+[20:12:17]   step 1 GSM8K trained in 147s; vs log: {'acc_now': 51.5, 'acc_logged': 51.4, 'diff_pp': 0.1, 'same_prediction_pct': 99.7, 'max_abs_letter_mass_diff': 0.014722}
+{'loss': '0.6407', 'grad_norm': '7.511', 'learning_rate': '2e-05', 'epoch': '0.128'}
+{'loss': '0.7105', 'grad_norm': '6.858', 'learning_rate': '1.979e-05', 'epoch': '0.256'}
+{'loss': '0.6588', 'grad_norm': '5.729', 'learning_rate': '1.916e-05', 'epoch': '0.384'}
+{'loss': '0.7001', 'grad_norm': '6.247', 'learning_rate': '1.815e-05', 'epoch': '0.512'}
+{'loss': '0.6056', 'grad_norm': '5.681', 'learning_rate': '1.679e-05', 'epoch': '0.64'}
+{'loss': '0.6345', 'grad_norm': '6.28', 'learning_rate': '1.515e-05', 'epoch': '0.768'}
+{'loss': '0.6152', 'grad_norm': '5.956', 'learning_rate': '1.329e-05', 'epoch': '0.896'}
+{'loss': '0.573', 'grad_norm': '13.07', 'learning_rate': '1.128e-05', 'epoch': '1'}
+{'loss': '0.3699', 'grad_norm': '4.714', 'learning_rate': '9.228e-06', 'epoch': '1.128'}
+{'loss': '0.3416', 'grad_norm': '5.527', 'learning_rate': '7.205e-06', 'epoch': '1.256'}
+{'loss': '0.2988', 'grad_norm': '5.055', 'learning_rate': '5.3e-06', 'epoch': '1.384'}
+{'loss': '0.3315', 'grad_norm': '4.982', 'learning_rate': '3.594e-06', 'epoch': '1.512'}
+{'loss': '0.322', 'grad_norm': '4.994', 'learning_rate': '2.159e-06', 'epoch': '1.64'}
+{'loss': '0.3492', 'grad_norm': '4.957', 'learning_rate': '1.055e-06', 'epoch': '1.768'}
+{'loss': '0.2521', 'grad_norm': '5.561', 'learning_rate': '3.297e-07', 'epoch': '1.896'}
+{'loss': '0.3288', 'grad_norm': '7.439', 'learning_rate': '1.326e-08', 'epoch': '2'}
+{'train_runtime': '144.6', 'train_samples_per_second': '13.83', 'train_steps_per_second': '0.443', 'train_loss': '0.4833', 'epoch': '2'}
+[20:14:58]   step 2 CodeAlpaca trained in 145s; vs log: {'acc_now': 51.9, 'acc_logged': 51.6, 'diff_pp': 0.3, 'same_prediction_pct': 99.4, 'max_abs_letter_mass_diff': 0.003786}
+{'loss': '1.334', 'grad_norm': '30.47', 'learning_rate': '2e-05', 'epoch': '0.128'}
+{'loss': '0.6369', 'grad_norm': '24.25', 'learning_rate': '1.979e-05', 'epoch': '0.256'}
+{'loss': '0.6166', 'grad_norm': '23.17', 'learning_rate': '1.916e-05', 'epoch': '0.384'}
+{'loss': '0.4915', 'grad_norm': '19.26', 'learning_rate': '1.815e-05', 'epoch': '0.512'}
+{'loss': '0.4541', 'grad_norm': '19.61', 'learning_rate': '1.679e-05', 'epoch': '0.64'}
+{'loss': '0.5885', 'grad_norm': '22.39', 'learning_rate': '1.515e-05', 'epoch': '0.768'}
+{'loss': '0.5358', 'grad_norm': '21.79', 'learning_rate': '1.329e-05', 'epoch': '0.896'}
+{'loss': '0.6133', 'grad_norm': 'inf', 'learning_rate': '1.128e-05', 'epoch': '1'}
+{'loss': '0.1782', 'grad_norm': '10.21', 'learning_rate': '9.228e-06', 'epoch': '1.128'}
+{'loss': '0.1606', 'grad_norm': '9.638', 'learning_rate': '7.205e-06', 'epoch': '1.256'}
+{'loss': '0.1299', 'grad_norm': '11.3', 'learning_rate': '5.3e-06', 'epoch': '1.384'}
+{'loss': '0.1144', 'grad_norm': '15.78', 'learning_rate': '3.594e-06', 'epoch': '1.512'}
+{'loss': '0.09832', 'grad_norm': '9.778', 'learning_rate': '2.159e-06', 'epoch': '1.64'}
+{'loss': '0.1352', 'grad_norm': '10.06', 'learning_rate': '1.055e-06', 'epoch': '1.768'}
+{'loss': '0.08657', 'grad_norm': '1.976', 'learning_rate': '3.297e-07', 'epoch': '1.896'}
+{'loss': '0.2069', 'grad_norm': '23.68', 'learning_rate': '1.326e-08', 'epoch': '2'}
+{'train_runtime': '144', 'train_samples_per_second': '13.89', 'train_steps_per_second': '0.444', 'train_loss': '0.3988', 'epoch': '2'}
+[20:17:27]   step 3 SciQ trained in 144s
+[20:17:39]   letter_orig  43.50%  (12s)
+[20:18:41]   letter_shuf  40.76% (mean of 5)  (61s)
+[20:19:21]   full_answer  32.10%  (40s)
+[20:19:21]   reproduction of logged Step 3: {'acc_now': 43.5, 'acc_logged': 43.6, 'diff_pp': -0.1, 'same_prediction_pct': 99.2, 'max_abs_letter_mass_diff': 0.020899}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.40s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.40s/it]
+[20:19:23]   weights saved to /workspace/ckpt_step3/qwen0.5b_main_FFT_s44_step3
+[20:19:23] === qwen0.5b_main_LoRA_s44_step3 ===
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 9797.17it/s]
+{'loss': '0.5966', 'grad_norm': '0.952', 'learning_rate': '0.0002', 'epoch': '0.128'}
+{'loss': '0.4533', 'grad_norm': '0.6777', 'learning_rate': '0.0001979', 'epoch': '0.256'}
+{'loss': '0.4639', 'grad_norm': '0.5188', 'learning_rate': '0.0001916', 'epoch': '0.384'}
+{'loss': '0.4254', 'grad_norm': '0.4593', 'learning_rate': '0.0001815', 'epoch': '0.512'}
+{'loss': '0.4207', 'grad_norm': '0.4451', 'learning_rate': '0.0001679', 'epoch': '0.64'}
+{'loss': '0.437', 'grad_norm': '0.4977', 'learning_rate': '0.0001515', 'epoch': '0.768'}
+{'loss': '0.4262', 'grad_norm': '0.586', 'learning_rate': '0.0001329', 'epoch': '0.896'}
+{'loss': '0.4292', 'grad_norm': '1.172', 'learning_rate': '0.0001128', 'epoch': '1'}
+{'loss': '0.37', 'grad_norm': '0.4124', 'learning_rate': '9.228e-05', 'epoch': '1.128'}
+{'loss': '0.3672', 'grad_norm': '0.4072', 'learning_rate': '7.205e-05', 'epoch': '1.256'}
+{'loss': '0.3299', 'grad_norm': '0.4677', 'learning_rate': '5.3e-05', 'epoch': '1.384'}
+{'loss': '0.3394', 'grad_norm': '0.5379', 'learning_rate': '3.594e-05', 'epoch': '1.512'}
+{'loss': '0.3666', 'grad_norm': '0.5187', 'learning_rate': '2.159e-05', 'epoch': '1.64'}
+{'loss': '0.3752', 'grad_norm': '0.5449', 'learning_rate': '1.055e-05', 'epoch': '1.768'}
+{'loss': '0.3574', 'grad_norm': '0.5007', 'learning_rate': '3.297e-06', 'epoch': '1.896'}
+{'loss': '0.3632', 'grad_norm': '1.085', 'learning_rate': '1.326e-07', 'epoch': '2'}
+{'train_runtime': '140.9', 'train_samples_per_second': '14.19', 'train_steps_per_second': '0.454', 'train_loss': '0.4076', 'epoch': '2'}
+[20:22:04]   step 1 GSM8K trained in 141s; vs log: {'acc_now': 52.8, 'acc_logged': 52.8, 'diff_pp': 0.0, 'same_prediction_pct': 98.9, 'max_abs_letter_mass_diff': 0.009166}
+{'loss': '0.629', 'grad_norm': '0.7585', 'learning_rate': '0.0002', 'epoch': '0.128'}
+{'loss': '0.6705', 'grad_norm': '0.7419', 'learning_rate': '0.0001979', 'epoch': '0.256'}
+{'loss': '0.6115', 'grad_norm': '0.6409', 'learning_rate': '0.0001916', 'epoch': '0.384'}
+{'loss': '0.6421', 'grad_norm': '0.6787', 'learning_rate': '0.0001815', 'epoch': '0.512'}
+{'loss': '0.5464', 'grad_norm': '0.5871', 'learning_rate': '0.0001679', 'epoch': '0.64'}
+{'loss': '0.5741', 'grad_norm': '0.7123', 'learning_rate': '0.0001515', 'epoch': '0.768'}
+{'loss': '0.561', 'grad_norm': '0.6787', 'learning_rate': '0.0001329', 'epoch': '0.896'}
+{'loss': '0.5374', 'grad_norm': '1.54', 'learning_rate': '0.0001128', 'epoch': '1'}
+{'loss': '0.5248', 'grad_norm': '0.5641', 'learning_rate': '9.228e-05', 'epoch': '1.128'}
+{'loss': '0.507', 'grad_norm': '0.5325', 'learning_rate': '7.205e-05', 'epoch': '1.256'}
+{'loss': '0.4425', 'grad_norm': '0.679', 'learning_rate': '5.3e-05', 'epoch': '1.384'}
+{'loss': '0.4845', 'grad_norm': '0.6423', 'learning_rate': '3.594e-05', 'epoch': '1.512'}
+{'loss': '0.4995', 'grad_norm': '0.5037', 'learning_rate': '2.159e-05', 'epoch': '1.64'}
+{'loss': '0.5368', 'grad_norm': '0.5996', 'learning_rate': '1.055e-05', 'epoch': '1.768'}
+{'loss': '0.3667', 'grad_norm': '0.5162', 'learning_rate': '3.297e-06', 'epoch': '1.896'}
+{'loss': '0.438', 'grad_norm': '1.04', 'learning_rate': '1.326e-07', 'epoch': '2'}
+{'train_runtime': '134.4', 'train_samples_per_second': '14.88', 'train_steps_per_second': '0.476', 'train_loss': '0.5357', 'epoch': '2'}
+[20:24:37]   step 2 CodeAlpaca trained in 135s; vs log: {'acc_now': 52.5, 'acc_logged': 52.2, 'diff_pp': 0.3, 'same_prediction_pct': 99.1, 'max_abs_letter_mass_diff': 0.007342}
+{'loss': '1.117', 'grad_norm': '5.278', 'learning_rate': '0.0002', 'epoch': '0.128'}
+{'loss': '0.6685', 'grad_norm': '3.62', 'learning_rate': '0.0001979', 'epoch': '0.256'}
+{'loss': '0.5761', 'grad_norm': '3.003', 'learning_rate': '0.0001916', 'epoch': '0.384'}
+{'loss': '0.4355', 'grad_norm': '2.019', 'learning_rate': '0.0001815', 'epoch': '0.512'}
+{'loss': '0.3674', 'grad_norm': '2', 'learning_rate': '0.0001679', 'epoch': '0.64'}
+{'loss': '0.5229', 'grad_norm': '3.524', 'learning_rate': '0.0001515', 'epoch': '0.768'}
+{'loss': '0.4644', 'grad_norm': '4.033', 'learning_rate': '0.0001329', 'epoch': '0.896'}
+{'loss': '0.5736', 'grad_norm': '2.777', 'learning_rate': '0.0001128', 'epoch': '1'}
+{'loss': '0.2836', 'grad_norm': '1.344', 'learning_rate': '9.228e-05', 'epoch': '1.128'}
+{'loss': '0.2139', 'grad_norm': '1.248', 'learning_rate': '7.205e-05', 'epoch': '1.256'}
+{'loss': '0.2694', 'grad_norm': '2.32', 'learning_rate': '5.3e-05', 'epoch': '1.384'}
+{'loss': '0.2046', 'grad_norm': '1.311', 'learning_rate': '3.594e-05', 'epoch': '1.512'}
+{'loss': '0.2553', 'grad_norm': '2.004', 'learning_rate': '2.159e-05', 'epoch': '1.64'}
+{'loss': '0.234', 'grad_norm': '1.47', 'learning_rate': '1.055e-05', 'epoch': '1.768'}
+{'loss': '0.1986', 'grad_norm': '0.9175', 'learning_rate': '3.297e-06', 'epoch': '1.896'}
+{'loss': '0.2411', 'grad_norm': '2.992', 'learning_rate': '1.326e-07', 'epoch': '2'}
+{'train_runtime': '143.7', 'train_samples_per_second': '13.91', 'train_steps_per_second': '0.445', 'train_loss': '0.4141', 'epoch': '2'}
+[20:27:07]   step 3 SciQ trained in 144s
+[20:27:19]   letter_orig  50.20%  (12s)
+[20:28:20]   letter_shuf  48.36% (mean of 5)  (61s)
+[20:29:01]   full_answer  38.50%  (40s)
+[20:29:01]   reproduction of logged Step 3: {'acc_now': 50.2, 'acc_logged': 50.1, 'diff_pp': 0.1, 'same_prediction_pct': 96.9, 'max_abs_letter_mass_diff': 0.102966}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]Writing model shards: 100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+[20:29:02]   weights saved to /workspace/ckpt_step3/qwen0.5b_main_LoRA_s44_step3
+[20:29:03] all requested checkpoints finished

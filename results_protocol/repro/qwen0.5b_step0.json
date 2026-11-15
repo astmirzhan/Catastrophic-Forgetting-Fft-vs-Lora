@@ -1,0 +1,23 @@
+{
+  "summary": {
+    "letter_orig": 51.9,
+    "letter_shuf": 51.019999999999996,
+    "full_answer": 32.2
+  },
+  "vs_a4_log": {
+    "acc_now": 51.9,
+    "acc_logged": 51.9,
+    "diff_pp": 0.0,
+    "same_prediction_pct": 100.0,
+    "max_abs_letter_mass_diff": 1e-06
+  },
+  "env": {
+    "python": "3.12.3",
+    "torch": "2.8.0+cu128",
+    "transformers": "5.21.0",
+    "peft": "0.21.2",
+    "datasets": "5.1.0",
+    "gpu": "NVIDIA A40",
+    "gpu_memory_gb": 47.7
+  }
+}
