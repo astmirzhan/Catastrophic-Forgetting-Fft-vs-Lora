@@ -185,6 +185,33 @@ def figure(G, seeds, path):
     plt.close(fig)
 
 
+def position_figure(P, seeds, path):
+    """Figure 6: accuracy by gold position and prediction share by position (shuffled letter scoring)."""
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    col = {"FFT": "#c44e52", "LoRA": "#4c72b0"}
+    mk = {s: m for s, m in zip(seeds, ["o", "s", "^", "D", "v"])}
+    fig, axes = plt.subplots(1, 2, figsize=(10, 3.4))
+    for ax, colname, title in [(axes[0], "acc_when_gold_here", "Accuracy when the correct answer is at this position (%)"),
+                               (axes[1], "pred_share", "Share of predictions at this position (%)")]:
+        for method, off in [("FFT", -0.08), ("LoRA", 0.08)]:
+            for s in seeds:
+                x = P[(P.method == method) & (P.seed.astype(str) == str(s))].sort_values("letter")
+                ax.plot([i + off for i in range(4)], x[colname], marker=mk[s], ms=4, lw=1, color=col[method],
+                        alpha=0.85, label=f"{method} s{s}")
+        b = P[P.method == "base"].sort_values("letter")
+        ax.plot(range(4), b[colname], "k--", lw=1.5, label="Base (Step 0)")
+        if colname == "pred_share":
+            ax.axhline(25, color="grey", lw=0.8)
+        ax.set_xticks(range(4)); ax.set_xticklabels(list("ABCD"))
+        ax.set_xlabel("Answer position after shuffling"); ax.set_title(title, fontsize=9)
+    axes[0].legend(fontsize=7, ncol=2, frameon=False)
+    fig.tight_layout()
+    fig.savefig(path, dpi=200)
+    plt.close(fig)
+
+
 def verify(df, mode, method, seed, subset):
     """Recount one table row straight from the item-level CSV rows, without pandas."""
     want = SUBSETS[subset]
@@ -227,6 +254,7 @@ def main():
     P.to_csv(os.path.join(a.out, "position_shuffled.csv"), index=False)
     R.to_csv(os.path.join(a.out, "reproduction.csv"), index=False)
     figure(G, seeds, os.path.join(a.out, "fig_gap_by_mode.png"))
+    position_figure(P, seeds, os.path.join(a.out, "fig_position.png"))
     with open(os.path.join(a.out, "tables.md"), "w") as f:
         f.write(f"Matched seeds: {seeds}\n\n## Results table\n\n")
         f.write(T.to_markdown(index=False))

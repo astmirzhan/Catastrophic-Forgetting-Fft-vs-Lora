@@ -1,8 +1,0 @@
-ckpt,acc_now,acc_logged,diff_pp,same_prediction_pct,max_abs_letter_mass_diff,step1_diff_pp,step2_diff_pp
-qwen0.5b_main_FFT_s42_step3,33.4,33.4,0.0,97.3,0.10507,-0.2,0.0
-qwen0.5b_main_FFT_s43_step3,44.3,44.3,0.0,98.8,0.052154,-0.2,0.1
-qwen0.5b_main_FFT_s44_step3,43.5,43.6,-0.1,99.2,0.020899,0.1,0.3
-qwen0.5b_main_LoRA_s42_step3,52.0,51.7,0.3,97.8,0.079774,0.2,-0.4
-qwen0.5b_main_LoRA_s43_step3,50.3,51.9,-1.6,96.9,0.150665,-0.1,0.0
-qwen0.5b_main_LoRA_s44_step3,50.2,50.1,0.1,96.9,0.102966,0.0,0.3
-qwen0.5b_step0,51.9,51.9,0.0,100.0,1e-06,,

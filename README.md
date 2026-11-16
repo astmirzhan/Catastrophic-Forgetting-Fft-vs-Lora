@@ -28,6 +28,7 @@ analysis.py        tables, statistics, verdicts, error analysis, figures
 run_colab.ipynb    the same commands as a Colab notebook (saves to Google Drive)
 run_runpod.sh      1.5B scale check on a rented 48 GB GPU (quick | full)
 requirements.txt   minimum package versions
+docs/              protocol_freeze_form.pdf (protocol fixed before the final runs)
 results_*/         raw outputs: runs/*.json, baselines/, eval_items.json, environment.json, pip_freeze.txt, logs
 report/            everything produced by analysis.py (CSV tables, summary.md, fig1–fig6)
 ```
@@ -35,7 +36,7 @@ report/            everything produced by analysis.py (CSV tables, summary.md, f
 ## Reproduce
 
 ```bash
-git clone https://github.com/<your-username>/catastrophic-forgetting-fft-vs-lora.git && cd catastrophic-forgetting-fft-vs-lora
+git clone https://github.com/astmirzhan/Catastrophic-Forgetting-Fft-vs-Lora.git && cd Catastrophic-Forgetting-Fft-vs-Lora
 pip install -r requirements.txt
 pip uninstall -y torchao          # only if peft fails to import because of torchao (seen on Colab)
 
@@ -102,7 +103,7 @@ Manuscript: *Catastrophic Forgetting under Full Fine-Tuning and LoRA in Small LL
 | Table 5, Figure 3 (diagnostics, error analysis) | `report/diagnostics.csv`, `report/error_counts.csv`, `report/fig5_diagnostics.png` | same |
 | Figure 4 (task order), Section 4.5 | `report/fig6_order.png`, `report/efficiency.csv`, `report/correlation.csv` | same |
 | Table 7 (verdicts) | `report/verdicts.csv` | same |
-| Table 6, Figures 5–6, Appendix A (protocol analysis) | `report_protocol/*.csv`, `report_protocol/fig_gap_by_mode.png`, item-level `results_protocol/items/*.csv` | see below |
+| Table 6, Figures 5–6, Appendix A (protocol analysis) | `report_protocol/*.csv`, `report_protocol/fig_gap_by_mode.png` (Figure 5), `report_protocol/fig_position.png` (Figure 6), item-level `results_protocol/items/*.csv` | see below |
 
 ### Re-running the experiments
 
