@@ -90,6 +90,50 @@ If the session dies, run the same command again: finished runs are skipped.
 * `efficiency.csv` — training time per step, peak GPU memory, trainable parameters.
 * `fig1_trajectory.png` … `fig6_order.png`.
 
+## Final manuscript: reproducing every table and figure
+
+Manuscript: *Catastrophic Forgetting under Full Fine-Tuning and LoRA in Small LLMs: Sensitivity to the Evaluation Protocol*
+(target journal: Machine Learning and Knowledge Extraction, MDPI). Release tag: `final`.
+
+| Manuscript item | Source file | Command |
+|---|---|---|
+| Table 3, Figures 1–2 (main results) | `report/table_main.csv`, `report/fig1_trajectory.png`, `report/fig2_forgetting.png` | `python analysis.py --results results_colab results_runpod --out report` |
+| Table 4, Section 4.3 tests | `report/tests_per_seed.csv`, `report/tests_across_seeds.csv` | same |
+| Table 5, Figure 3 (diagnostics, error analysis) | `report/diagnostics.csv`, `report/error_counts.csv`, `report/fig5_diagnostics.png` | same |
+| Figure 4 (task order), Section 4.5 | `report/fig6_order.png`, `report/efficiency.csv`, `report/correlation.csv` | same |
+| Table 7 (verdicts) | `report/verdicts.csv` | same |
+| Table 6, Figures 5–6, Appendix A (protocol analysis) | `report_protocol/*.csv`, `report_protocol/fig_gap_by_mode.png`, item-level `results_protocol/items/*.csv` | see below |
+
+### Re-running the experiments
+
+```bash
+pip install -r requirements.txt
+python forgetting.py --model Qwen/Qwen2.5-0.5B --seeds 42 43 44 --out results_colab        # T4, ~2 GPU-h
+python forgetting.py --model Qwen/Qwen2.5-0.5B --seeds 42 --order reversed --out results_colab
+python forgetting.py --model Qwen/Qwen2.5-1.5B --seeds 42 43 44 --out results_runpod       # 48 GB GPU, ~0.8 GPU-h
+python analysis.py --results results_colab results_runpod --out report
+```
+
+### Evaluation-protocol analysis (Section 4.6)
+
+```bash
+pip install transformers==5.21.0 peft==0.21.2 datasets==5.1.0 accelerate==1.15.0 tabulate pandas scipy matplotlib
+python protocol/protocol_eval.py --step0-only --out results_protocol                      # must match the logged Step 0 exactly
+python protocol/protocol_eval.py --seeds 42 43 44 --match-t4 --out results_protocol      # re-trains Step 3, 3 scoring modes (~1 GPU-h on A40)
+python protocol/protocol_analysis.py --res results_protocol --out report_protocol
+python protocol/protocol_analysis.py --res results_protocol --verify letter_shuf FFT 42 All
+# expected: Step 0 2551/5000 = 51.02%, Step 3 1587/5000 = 31.74%, forgetting 19.28 pp
+```
+
+`--match-t4` enforces the original Colab T4 recipe (fp16 mixed precision, batch 2 × 16) on any GPU.
+
+### Data and code availability
+
+Code and results: MIT licence. Models (Qwen2.5) and datasets (GSM8K, CodeAlpaca-20k, SciQ, ARC-Challenge, MMLU) are downloaded
+from the Hugging Face Hub and keep their own licences; they are not redistributed here. Re-trained model weights are not
+included because of their size (≈2 GB each) and can be regenerated with the commands above. The repository contains no
+personal data, credentials or confidential material.
+
 ## License
 
 MIT (see `LICENSE`). Datasets and models keep their own licenses (GSM8K MIT, CodeAlpaca
