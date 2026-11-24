@@ -1,5 +1,12 @@
 # Catastrophic Forgetting in Small Open-Source LLMs During Sequential Fine-Tuning: Full Fine-Tuning vs LoRA
 
+<p>
+  <img src="https://img.shields.io/badge/Python-PyTorch_·_PEFT-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python, PyTorch, PEFT" />
+  <img src="https://img.shields.io/badge/Model-Qwen2.5_0.5B_·_1.5B-6E40C9?style=for-the-badge" alt="Qwen2.5 0.5B and 1.5B" />
+  <img src="https://img.shields.io/badge/Runs-14-2B7BD6?style=for-the-badge" alt="14 runs" />
+  <img src="https://img.shields.io/badge/Protocol-frozen_before_runs-E8662F?style=for-the-badge" alt="Protocol frozen before the final runs" />
+</p>
+
 Research Methods, Assignment 4 (experiment execution). Builds on the Assignment 3 pilot.
 
 **Research question.** How does the degree of catastrophic forgetting differ between full
@@ -19,6 +26,25 @@ The protocol was frozen before the final runs (Appendix A in the report).
 | Main | Qwen2.5-0.5B | GSM8K → CodeAlpaca → SciQ | 42, 43, 44 | Colab T4 (fp16 mixed) |
 | Order check | Qwen2.5-0.5B | SciQ → CodeAlpaca → GSM8K | 42 | Colab T4 |
 | Scale check | Qwen2.5-1.5B | GSM8K → CodeAlpaca → SciQ | 42, 43, 44 | RunPod 48 GB GPU (bf16 mixed) |
+
+## Key results
+
+<img src="report/fig2_forgetting.png" alt="Forgetting after each step: full fine-tuning loses 11.5 pp on Qwen2.5-0.5B after SciQ, LoRA stays near zero; on 1.5B both stay under 3 pp" width="100%" />
+
+| | Qwen2.5-0.5B | Qwen2.5-1.5B |
+| --- | --- | --- |
+| Baseline old-knowledge accuracy | 51.9% | 68.4% |
+| Forgetting after 3 tasks, **FFT** | **11.5 ± 6.1 pp** | 2.9 ± 1.0 pp |
+| Forgetting after 3 tasks, **LoRA** | **0.7 ± 1.0 pp** | 1.0 ± 0.4 pp |
+| Trainable parameters, LoRA | 1.8% | 1.2% |
+| Peak VRAM, FFT → LoRA | 10.2 → 6.5 GB | 33.2 → 26.8 GB |
+
+- **LoRA barely forgets.** On 0.5B, FFT loses 11.5 pp of old-knowledge accuracy after the third task, LoRA under 1 pp, and the LoRA advantage at step 3 is Holm-significant in all 3 seeds.
+- **Most of the damage comes at one step.** For FFT the first two tasks cost almost nothing; the drop appears after SciQ, and with the reversed order SciQ hurts right away.
+- **A bigger model forgets less.** On 1.5B both methods stay under 3 pp and the LoRA advantage is no longer significant.
+- **Part of the FFT loss is format drift**: after SciQ the model puts much less probability on answer letters at all (letter mass 0.13 vs 0.94 for LoRA), so it "forgets how to answer" as well as what it knew. See `diagnostics.csv` and the error analysis.
+
+Verdicts for every hypothesis under the frozen decision rules are in [`report/verdicts.csv`](report/verdicts.csv); all numbers come from [`report/summary.md`](report/summary.md).
 
 ## Repository layout
 
